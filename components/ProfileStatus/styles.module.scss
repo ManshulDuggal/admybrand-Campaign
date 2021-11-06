@@ -1,0 +1,21 @@
+.mainWrapper {
+  @apply flex flex-col divide-y space-y-3 divide-gray-200  w-full;
+  .primaryDetailsContainer {
+    @apply flex flex-col justify-center items-center space-y-2;
+  }
+  .profilePicPlaceholder {
+    @apply bg-gray-300 w-16 h-16 rounded-full;
+  }
+  .followTypeContainer {
+    @apply flex justify-around w-full py-2;
+    div{
+        @apply flex flex-col justify-center items-center;
+    }
+  }
+  ul{
+      @apply flex flex-col w-full space-y-3 pt-6;
+      li{
+        @apply flex justify-between;
+      }
+  }
+}

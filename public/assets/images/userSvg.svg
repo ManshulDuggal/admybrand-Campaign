@@ -1,0 +1,5 @@
+<svg id="userSvg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <circle id="Ellipse_1" data-name="Ellipse 1" cx="12" cy="12" r="12" fill="#415f8b"/>
+  <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="3.584" cy="3.556" rx="3.584" ry="3.556" transform="translate(8.101 4.55)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_4" data-name="Path 4" d="M6,16.609a1.638,1.638,0,0,1,.165-.722,3.036,3.036,0,0,1,2.114-1.206,12.674,12.674,0,0,1,1.757-.245,18.927,18.927,0,0,1,3.288,0,12.815,12.815,0,0,1,1.757.245A2.921,2.921,0,0,1,17.2,15.887a1.678,1.678,0,0,1,0,1.451,2.893,2.893,0,0,1-2.114,1.2,11.873,11.873,0,0,1-1.757.252,19.515,19.515,0,0,1-2.677.041,3.079,3.079,0,0,1-.611-.041,11.661,11.661,0,0,1-1.751-.252,2.907,2.907,0,0,1-2.121-1.2A1.685,1.685,0,0,1,6,16.609Z" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+</svg>

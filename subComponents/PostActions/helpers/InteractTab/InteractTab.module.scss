@@ -1,0 +1,20 @@
+.wrapper {
+  @apply flex flex-col space-y-2;
+  .textWrapper {
+    @apply flex justify-between space-x-14 ;
+  }
+  form {
+    @apply flex flex-col;
+    textarea{
+      min-height:10rem;
+        @apply border p-2 rounded resize-none border-lightblue  appearance-none outline-none font-inter text-secondary focus:border-2 overflow-hidden;
+    }
+  }
+}
+.textLightSmall {
+  @apply font-inter font-medium text-sm sm:text-base text-quicklinkdes;
+}
+.textLight {
+  color:#576d8d;
+  @apply font-inter font-medium text-sm sm:text-base ;
+}

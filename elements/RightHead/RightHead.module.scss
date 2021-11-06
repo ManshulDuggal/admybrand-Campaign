@@ -1,0 +1,50 @@
+.rightHeadContainer {
+    padding-right: 8.4375rem;
+    @apply flex justify-center items-center h-full w-auto;
+}
+
+.rightHeadContainerSearchPage {
+    padding-right: 2.4375rem;
+    @apply flex justify-center items-center h-full w-auto;
+}
+
+.rightHeadAddspacebtn {
+    @apply justify-center items-center flex-shrink flex-grow-0 mr-3;
+}
+
+.rightHeadAddagencybtn {
+    @apply border-0 flex-shrink flex-grow-0 mr-3;
+
+    .addagencylabel {
+        @apply overflow-hidden text-secondary flex-shrink flex-grow-0;
+    }
+}
+
+// Icons
+.rightHeadIcons {
+    @apply justify-center items-center flex-shrink flex-grow-0 mr-3 cursor-pointer;
+}
+
+@media screen and (max-width: 1220px) {
+    .rightHeadContainer {
+        @apply pr-4;
+    }
+
+    .leftcontainer {
+        @apply pl-4;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .rightHeadAddspacebtn {
+        @apply hidden;
+    }
+
+    .rightHeadAddagencybtn {
+        @apply hidden;
+    }
+
+    .rightHeadIcons {
+        @apply hidden;
+    }
+}

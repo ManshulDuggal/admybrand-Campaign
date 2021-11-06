@@ -1,0 +1,39 @@
+.mobilemenuheader {
+  @apply flex w-full h-full bg-white flex-col divide-y pt-8;
+}
+
+.icons {
+  @apply justify-center items-center flex-shrink flex-grow-0 mr-3 cursor-pointer bg-transparent hover:bg-transparent;
+}
+.itemwrapper {
+  @apply flex w-full h-10 bg-transparent justify-between items-center;
+}
+.ul {
+  @apply flex flex-col  h-auto w-full py-1;
+}
+.li {
+  @apply flex items-center h-10 w-full pl-4;
+  .label {
+    @apply flex font-pops font-medium text-secondary text-sm hover:text-primary;
+  }
+}
+
+.btnswrapper {
+  @apply flex w-full h-16 pt-6 justify-evenly;
+  .btn {
+    width: 9.875rem;
+    -webkit-tap-highlight-color: transparent;
+    @apply flex justify-center items-center border-gray-300 bg-white;
+    .btnlabel {
+      @apply flex font-pops font-medium text-base text-text text-center;
+    }
+  }
+  .btntwo {
+    width: 9.875rem;
+    -webkit-tap-highlight-color: transparent;
+    @apply flex justify-center items-center border-primary bg-primary-pink;
+    .btnlabel {
+      @apply flex font-pops font-medium text-base text-white text-center;
+    }
+  }
+}

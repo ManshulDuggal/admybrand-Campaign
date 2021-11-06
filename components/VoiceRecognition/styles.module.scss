@@ -1,0 +1,18 @@
+.mainWrapper{
+    @apply bg-white shadow-xl p-16 flex justify-between items-center rounded-xl gap-4 flex-col;
+    .mainSubRowLayout{
+        @apply flex justify-center items-center gap-4;
+        .leftColumn{
+            @apply flex flex-col space-y-2;
+        }
+    }
+}
+.headingDarkBigBold{
+    @apply text-secondary font-pops text-4xl font-semibold;
+}
+.captionDarkItalic{
+    @apply text-secondary text-sm italic;
+}
+.captionPink{
+    @apply text-primary transition-all font-semibold  text-base max-w-sm text-center;
+}

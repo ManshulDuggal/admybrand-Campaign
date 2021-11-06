@@ -1,0 +1,12 @@
+.legend {
+  @apply h-8 w-20 rounded-xl shadow-md border-none p-px cursor-pointer relative -top-16 bg-white;
+}
+.hoverContent {
+  @apply p-2 absolute right-14 rounded-xl bottom-24 bg-white;
+  min-width: 10rem;
+  background: rgba(255, 255, 255, 1);
+}
+.close {
+  @apply absolute right-4 top-1 text-xl rotate-45 cursor-pointer;
+  color: rgba(21, 48, 89, 0.5);
+}

@@ -1,0 +1,9 @@
+.searchdescription {
+    @apply flex w-full lg:overflow-y-scroll h-auto px-4 md:px-0 py-2 md:pt-6;
+    &::-webkit-scrollbar {
+      @apply hidden;
+    }
+}
+.discription {
+    @apply flex mx-auto select-none md:select-text font-inter text-center text-sm md:text-base font-semibold text-secondary max-w-5xl;
+}

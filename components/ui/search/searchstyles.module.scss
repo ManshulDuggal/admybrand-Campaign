@@ -1,0 +1,43 @@
+$activebg: #f7f7f7;
+.searchwrapper {
+  width: 49.125rem;
+  height: 4.5rem;
+  @apply flex border rounded-full bg-white;
+}
+
+.searchwrapper:focus-within {
+  background-color: $activebg;
+}
+
+.webinputbox {
+  -webkit-tap-highlight-color: transparent;
+  @apply flex h-full cursor-pointer rounded-full bg-transparent flex-col justify-between;
+}
+
+.webinputbox:hover {
+  box-shadow: rgb(0 0 0 / 20%) 0px 6px 20px !important;
+}
+.webinputbox:focus-within {
+  box-shadow: rgb(0 0 0 / 20%) 0px 6px 20px !important;
+}
+.inputheading {
+  @apply flex mx-4 text-xs font-pops font-medium pt-3;
+}
+
+.inputfeild {
+  @apply flex w-full self-end;
+  input {
+    outline-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    @apply flex w-full mx-4 mb-4 border-0 bg-transparent  text-text font-inter font-normal text-sm;
+  }
+}
+
+.dividex {
+  width: 1px;
+  @apply flex h-full py-2;
+  .dividexinner {
+    background-color: $activebg;
+    @apply flex h-full w-full;
+  }
+}

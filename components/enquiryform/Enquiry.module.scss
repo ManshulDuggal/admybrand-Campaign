@@ -1,0 +1,54 @@
+//enquiryform container parent styles
+.formcontainer {
+  box-shadow: 1px 1px 4px gray;
+  width: 75%;
+  @apply bg-white rounded-xl;
+}
+
+.formcontrols {
+  @apply font-inter font-normal text-grey md:grid grid-cols-2 gap-2 m-4
+}
+
+//form styles
+.container {
+  height: auto;
+  background-color: #f8faff;
+  @apply w-screen  flex flex-col items-center justify-center text-grey;
+}
+.heading {
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  @apply h-20 md:h-28 lg:h-32 flex place-content-center items-center font-pops font-semibold;
+}
+.enquiryButton,
+.referenceButton {
+  @apply m-5 border-b-2 border-transparent;
+}
+// button style
+.enquireButtonDiv {
+  @apply flex h-28 place-content-center items-center;
+}
+.enquirebutton {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  @apply lg:mt-3 mt-7 bg-primary-pink flex flex-row place-content-center w-36 h-9 items-center justify-evenly rounded-full text-white font-inter font-medium;
+}
+
+
+.MobileNumberDiv
+ {
+  @apply   mt-2 md:ml-4 md:mr-4 md:mt-8 lg:mt-8 flex flex-col place-content-center ml-2 mr-2;
+}
+.inputBox {
+  font-size: 1rem;
+  width: 100%;
+  line-height: 1.5rem;
+  @apply outline-none border-2 border-bar h-10  md:h-12 rounded-md text-secondary lg:mt-3 md:px-6 px-2 font-pops font-medium;
+}
+
+.messageBox{
+  font-size: 1rem;
+  width: 100%;
+  line-height: 1.5rem;
+  @apply outline-none border-2 border-bar h-10  md:h-28 rounded-md text-secondary lg:mt-3 md:px-6 px-2 font-pops font-medium;
+}

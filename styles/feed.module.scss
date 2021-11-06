@@ -1,0 +1,33 @@
+
+.textLight{
+    color:#415F8B;
+    @apply text-sm;
+}
+.textDark{
+    color:#153059;
+    @apply text-sm;
+}
+.headingLight{
+    color:#415F8B;
+    @apply text-sm font-pops;
+}
+
+.headingDark{
+    color:#153059;
+    @apply text-base font-pops font-medium;
+}
+.headingDarkBigBold{
+    color:#153059;
+    @apply text-xl font-pops font-semibold;
+}
+.hollowBtnPink{
+    @apply border-2 border-primary active:transform active:scale-95 rounded-full transition-all text-primary font-semibold text-sm py-2 hover:text-white hover:bg-primary-pink bg-white active:bg-primary-pinkDark font-pops;
+}
+.iconBtn{
+    @apply flex font-semibold font-pops space-x-2 p-2 rounded hover:bg-gray-100 transition active:bg-gray-200;
+}
+.textPink{
+    @apply text-primary text-base font-medium font-pops;
+}
+
+

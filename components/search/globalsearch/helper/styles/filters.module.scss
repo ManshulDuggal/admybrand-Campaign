@@ -1,0 +1,63 @@
+.container {
+  ::-webkit-scrollbar {
+    width: 0.313rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: whitesmoke;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 1.563rem;
+  }
+  margin-top: -75px;
+  @apply overflow-auto z-50 w-screen bg-white;
+}
+.header {
+  @apply flex flex-row p-4 justify-between border-b-2 border-bar;
+}
+.clearButton {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  @apply border-b-2 border-secondary font-inter font-normal;
+}
+.filterHeading {
+  @apply font-medium text-sm font-inter text-secondary;
+}
+.menutitle {
+  @apply font-medium text-sm font-inter text-text;
+}
+.body {
+  @apply p-5;
+}
+.filterRadio {
+  @apply m-2 p-1 h-4 w-4 form-radio border-2 cursor-pointer border-gray-300 text-primary;
+}
+
+.categoriesMenuItems {
+  @apply flex flex-row p-3 items-center bg-primary-placeholder;
+}
+.applyButton {
+  background-color: #c4d7e7;
+  @apply w-96 h-11 flex z-50 place-content-center items-center rounded-xl hover:bg-primary-pink;
+}
+.applyButtonContainer {
+  @apply mt-16 flex place-content-center;
+}
+.radio {
+  @apply w-4 h-4 ml-2;
+}
+.menu {
+  @apply flex flex-row justify-between py-3;
+}
+.subMenu {
+  @apply flex py-3 items-center;
+}
+.submenutitle {
+  @apply ml-2 text-sm font-inter font-normal text-grey;
+}
+.apply {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  @apply font-inter font-bold;
+}

@@ -1,0 +1,27 @@
+.container {
+  margin-top: 1.37rem;
+  @apply flex flex-row justify-around  items-center;
+}
+
+.items {
+  @apply text-grey font-inter;
+}
+
+.inputContainer {
+  height: 3rem;
+  width: 21rem;
+  border-width: 1px;
+  border-color: gray;
+  @apply flex flex-row bg-white place-content-center items-center rounded-full lg:ml-96;
+}
+
+.searchIcon {
+  font-size: 1.3rem;
+  @apply text-grey m-3;
+}
+
+.inputText {
+  height: 2.7rem;
+  width: auto;
+  @apply outline-none mx-2;
+}

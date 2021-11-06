@@ -1,0 +1,6 @@
+.isNotFollowing{
+    @apply select-none border p-1 border-lightblue rounded hover:bg-primary-lightpink hover:text-primary hover:border-primary  font-semibold  text-xs text-quicklinkdes flex justify-center items-center transition-all cursor-pointer active:animate-ping;
+}
+.isFollowing{
+    @apply select-none border p-1 border-primary text-white bg-primary-pink rounded hover:bg-primary-pinkDark  font-semibold  text-xs flex justify-center items-center transition-all cursor-pointer active:animate-ping;
+}

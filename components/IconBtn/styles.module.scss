@@ -1,0 +1,8 @@
+.iconBtn{
+    -webkit-tap-highlight-color: transparent;
+    @apply flex font-semibold font-pops space-x-2 p-2 rounded hover:bg-gray-100 transition active:bg-gray-200 active:transform active:scale-90;
+    .textLight{
+        color:#415F8B;
+        @apply text-sm;
+    }
+}

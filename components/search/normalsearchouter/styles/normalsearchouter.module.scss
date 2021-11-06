@@ -1,0 +1,308 @@
+.dividex {
+  width: 1px;
+  @apply h-full py-2;
+  .dividexinner {
+    background-color: #f7f7f7;
+    @apply h-full w-full;
+  }
+}
+
+.hiddenouter {
+  @apply hidden;
+}
+
+// Large screen
+
+.searchoutermain {
+  @apply flex h-auto justify-center items-center  my-2;
+  .searchoutermainwrapper {
+    border-color: #f7f7f7;
+    @apply border rounded-full m-0 font-pops;
+  }
+}
+
+// Home search bar
+.homesearchoutermain {
+  box-shadow: 0px 4px 20px rgba(185, 187, 190, 0.25) !important;
+  overflow: inherit;
+  @apply hidden w-auto h-full  rounded-full bg-white;
+
+  &:focus-within {
+    background-color: #f7f7f7;
+  }
+  .homesearchouteractive:focus-within {
+    box-shadow: rgb(0 0 0 / 20%) 0px 6px 20px !important;
+  }
+  .homesearchouterheadings {
+    @apply font-pops font-medium text-xs text-black mb-1 px-2;
+  }
+  .homesearchouterheadingsValues{
+    @apply font-inter tracking-tighter text-sm text-black mb-1 px-2;
+  }
+  .homesearchouterheadings {
+    @apply font-pops font-medium text-xs text-black mb-1 px-2;
+  }
+  .homesearchoutersubheadings {
+    @apply placeholder-extra-placeholder font-inter font-normal text-sm;
+  }
+  .homesearchouterwrapper {
+    @apply flex w-auto   h-full bg-transparent;
+    //  Hover and focus effects
+    .homesearchouterhover {
+      & .homesearchoutercategorywrapper:hover,
+      & .homesearchouterlocationwrapper:hover,
+      & .homesearchouterenddatewrapper:hover,
+      & .homesearchouterstartdatewrapper:hover {
+        background-color: #ebebeb;
+      }
+      & .homesearchoutercategorywrapper:focus-within,
+      & .homesearchouterlocationwrapper:focus-within,
+      & .homesearchouterstartdatewrapper:focus-within,
+      & .homesearchouterenddatewrapper:focus-within {
+        @apply bg-white;
+        .categorydropdown {
+          @apply opacity-100 pointer-events-auto;
+        }
+        &:hover {
+          @apply bg-white;
+        }
+        .locationdropdown {
+          box-shadow: rgb(0 0 0 / 15%) 0px -1px 32px 6px !important;
+          @apply flex w-full rounded-2xl flex-col top-24   py-8 bg-white translate-y-0 opacity-100 pointer-events-auto;
+        }
+      }
+
+      // Elements styles
+
+      .homesearchoutercategorywrapper {
+        @apply flex flex-col relative pl-10 pr-6 justify-center items-start rounded-full  h-full cursor-pointer;
+        .homesearchoutercategoryinput {
+          @apply bg-transparent  border-0 outline-none px-2  text-sm placeholder-extra-placeholder;
+        }
+      }
+    }
+
+    .homesearchouterlocationwrapper {
+      @apply flex flex-col  relative pl-7 pr-6 justify-center items-start rounded-full  h-full  cursor-pointer;
+      .homesearchouterlocationinput {
+        @apply bg-transparent border-0 outline-none px-2 w-60 text-sm;
+      }
+    }
+  }
+  .homesearchouterstartdatewrapper {
+    @apply flex flex-col pl-6  justify-center items-start rounded-full pr-4  h-full cursor-pointer;
+    .homesearchouterstartdateinput {
+      @apply bg-transparent border-0 outline-none w-36  px-2;
+    }
+  }
+  .homesearchouterenddatewrapper {
+    @apply flex flex-col pl-6  justify-center items-start rounded-full pr-4  h-full  cursor-pointer;
+    .homesearchouterenddateinput {
+      @apply bg-transparent border-0 outline-none w-36 px-2;
+    }
+  }
+}
+
+.categorydropdown {
+  height: 50vh;
+  width: 20rem;
+  right: -8rem;
+  box-shadow: rgb(0 0 0 / 15%) 0px -1px 32px 6px !important;
+  @apply flex sm:max-w-sm  bg-white  flex-col absolute  top-[5.5rem]   z-10 rounded-3xl opacity-0 pointer-events-none translate-y-2 transition-all duration-150 px-0 py-4 overflow-y-scroll ease-in-out overflow-hidden;
+  &::-webkit-scrollbar {
+    @apply w-1 md:w-3;
+  }
+  &::-webkit-scrollbar-thumb {
+    // background-color: #c5cfd8;
+    background-color: #7388a8;
+    @apply rounded-full mr-2;
+  }
+  .categoryheading {
+    @apply hover:bg-primary-lightpink hover:text-primary w-full py-2 px-4 flex justify-self-start font-inter text-text;
+  }
+}
+
+.locationdropdown {
+  height: 20rem;
+  @apply flex rounded-t-2xl absolute flex-col top-14  shadow-lg py-8 right-0 z-10 opacity-0 pointer-events-none -translate-y-2 transition-all duration-150 overflow-y-scroll ease-in-out;
+  &::-webkit-scrollbar {
+    @apply w-3;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #7388a8;
+    @apply rounded-full;
+  }
+  .locationname {
+    @apply hover:bg-primary-lightpink text-text hover:text-primary w-full px-4 py-2 flex justify-between font-inter;
+  }
+}
+.locationdropdownmobile {
+  height: 20rem;
+  @apply flex rounded-t-3xl w-full max-w-md px-4 static flex-col bg-white  shadow-lg py-8  z-10 opacity-100 pointer-events-auto -translate-y-0 transition-all duration-150 overflow-y-scroll ease-in-out overflow-hidden;
+  &::-webkit-scrollbar {
+    @apply w-1 md:w-3;
+  }
+  &::-webkit-scrollbar-thumb {
+    // background-color: #c5cfd8;
+    background-color: #7388a8;
+    @apply rounded-full;
+  }
+  .locationname {
+    @apply hover:bg-primary-lightpink text-text hover:text-primary w-full px-4 py-2 flex justify-between font-inter;
+  }
+}
+
+// Mobile searchbox
+.homesearchoutermobilemain {
+  @apply flex  w-full h-auto px-4 justify-center items-center;
+  .homesearhoutermobilewrapper {
+    @apply flex  w-full sm:max-w-sm md:max-w-md h-auto flex-col;
+    .homesearchoutermobilehover {
+      @apply flex  w-full flex-col h-12 border border-lightblue rounded-full mb-4;
+      .homesearchoutermobileoverlay {
+        @apply flex fixed top-0 right-0 justify-center items-end bottom-0 left-0  z-50;
+        background-color: #1f375aa4;
+        .homesearchoutermobilecategory {
+          @apply flex opacity-100 static w-full  pointer-events-auto;
+        }
+      }
+      .homesearchoutermobilecategorybutton {
+        @apply flex w-full h-full pl-3 pr-4 items-center;
+        .homesearchoutermobilecategoryimage {
+          @apply flex w-6 h-6;
+        }
+        .homesearchoutermobilecategoryinput {
+          @apply flex w-full ml-3;
+          .homesearchoutermobilecategoryinputfeild {
+            @apply flex w-full outline-none px-1 bg-transparent font-inter font-normal text-sm text-text appearance-none;
+          }
+        }
+        .homesearchoutermobilecategoryimagewrapper {
+          @apply flex h-4 w-4 ml-3;
+        }
+      }
+    }
+    .homesearchoutermobilebtnwrapper {
+      @apply flex justify-center items-center w-full h-12 px-28;
+      .homesearchoutermobilebtn {
+        @apply flex  max-w-sm h-full bg-primary-pink active:bg-primary-pinkDark active:ring-primary-pink  rounded-full items-center pl-3 pr-5 select-none;
+        -webkit-tap-highlight-color: transparent;
+        .homesearchoutermobilebtnlabelwrapper {
+          @apply flex w-full justify-center items-center;
+          .homesearchoutermobilebtnlabel {
+            @apply flex font-pops   justify-center items-center font-normal text-base text-white ml-2 select-none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media query
+
+@media screen and (max-width: 1023px) {
+  .searchoutermainwrapper {
+    height: auto;
+    @apply w-screen;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .homesearchoutermobilemain {
+    @apply hidden mt-1;
+  }
+  .searchoutermainwrapper {
+    height: 4.5rem;
+    @apply w-auto;
+  }
+  .homesearchoutermain {
+    @apply flex;
+  }
+  .homesearchoutercategorywrapper {
+    .homesearchoutercategoryinput {
+      @apply w-32 font-inter;
+    }
+  }
+}
+
+@media screen and (min-width: 1124px) {
+  .homesearchoutermain {
+    @apply flex;
+  }
+}
+
+.calendarWrapper {
+  @apply absolute inset-0 lg:inset-x-0 lg:inset-y-[55vh] font-inter  ;
+  .calendarLayoutWrapperAnimated {
+    @apply absolute z-10 top-20 w-auto left-0 right-0 flex justify-center font-inter;
+  }
+  .calendarLayoutRelative {
+    @apply relative w-max bg-white p-8 border border-gray-200  shadow-xl rounded-3xl h-auto flex flex-col justify-center items-center space-y-1;
+  }
+  .calendarLayoutRounded {
+    @apply flex p-2 space-x-2 bg-gray-200 rounded-full text-sm font-semibold mt-2 transition-all;
+  }
+  .calendarLayoutTabBase {
+    @apply py-2 px-4 rounded-full font-semibold;
+  }
+  .calendarLayoutTabActive {
+    @apply bg-white;
+  }
+  .calendarLayoutTabInActive {
+    @apply bg-white;
+  }
+  .flexibleLayout {
+    @apply space-y-2;
+    width: 691px;
+    h1 {
+      @apply p-4 text-center text-gray-500;
+    }
+  }
+  .advertDurationTabContainer {
+    @apply flex space-x-2 justify-center;
+  }
+  .advertDurationTab {
+    @apply border py-1 px-2 text-sm text-black  hover:border-black transition-all rounded-full flex justify-center;
+    label {
+      @apply cursor-pointer select-none;
+    }
+    input {
+      @apply hidden;
+    }
+  }
+  .advertDurationTabActive {
+    @apply border-2 border-primary py-1 px-2 text-sm text-primary   hover:border-primary transition-all rounded-full flex justify-center;
+    label {
+      @apply cursor-pointer select-none font-semibold;
+    }
+    input {
+      @apply hidden;
+    }
+  }
+  .advertMonthTileGridContainer {
+    @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 justify-center;
+  }
+  .advertMonthTile {
+    @apply flex flex-col border p-4 rounded-2xl transition-all hover:border-black justify-center items-center cursor-pointer;
+    input {
+      @apply hidden;
+    }
+  }
+  .advertMonthTileActive {
+    @apply flex flex-col border-2 border-primary p-4 rounded-2xl transition-all hover:border-black justify-center items-center cursor-pointer;
+    input {
+      @apply hidden;
+    }
+  }
+  
+  .advertMonthTileLabelContainer {
+    @apply flex flex-col justify-center items-center cursor-pointer select-none;
+  }
+  .advertMonthTileLabelContainerActive {
+    @apply flex flex-col justify-center items-center cursor-pointer select-none text-primary font-semibold;
+  }
+}
+.homesearchouterheadingsPlaceholder {
+  @apply font-inter text-sm mb-1 px-2 text-grey;
+}

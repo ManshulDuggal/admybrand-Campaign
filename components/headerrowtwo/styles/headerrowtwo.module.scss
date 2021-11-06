@@ -1,0 +1,39 @@
+@media only screen and (min-width: 600px){
+    .hr2container{
+        ::-webkit-scrollbar{
+            width: 0.313rem; 
+           
+          }
+          ::-webkit-scrollbar-track{
+              background:whitesmoke;
+          }
+          ::-webkit-scrollbar-thumb{
+              background: gray;
+              border-radius: 1.563rem;
+          }
+
+        @apply flex flex-row justify-start items-center place-content-center ml-20 mt-2;
+    }
+    
+    .hr2menu{
+        @apply flex flex-row justify-center items-center mr-8;
+    }
+    .hr2menutitle{
+        @apply flex text-secondary p-1 text-sm font-inter items-center justify-center cursor-pointer border-b-2 border-white;
+    }
+    .hr2menutitleselected{
+        @apply flex text-primary p-1 text-sm font-inter items-center justify-center cursor-pointer border-b-2 border-primary;
+    }
+    .submenuContainer{
+        @apply  rounded-xl z-50 overflow-y-auto mt-0.5 fixed text-base bg-white w-auto font-inter shadow-xl font-normal text-text  h-auto max-h-48;
+    }
+    .submenutitle{
+        @apply m-2 px-3 py-1 mb-1 cursor-pointer rounded-full font-inter text-sm text-text hover:bg-primary-lightpink;
+    }
+    
+    }
+    @media only screen and  (max-width: 750px){
+        .container{
+            @apply hidden;
+        }
+    }

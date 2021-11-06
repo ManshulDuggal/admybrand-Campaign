@@ -1,0 +1,29 @@
+.profileMenuMenuwrapper {
+    @apply flex relative w-auto h-auto border-0 p-0 ml-3 bg-transparent justify-center items-center flex-shrink flex-grow-0;
+
+    .smallmenu {
+        box-shadow: rgb(0 0 0 / 15%) 0px 16px 32px, rgb(0 0 0 / 10%) 0px 3px 8px !important;
+        top: 5vh;
+        @apply absolute right-0 z-40;
+    }
+    // @include screen(mobile) {
+    //     display: none;
+    // }
+}
+
+.profileMenuContainer {
+    @apply flex h-12 justify-between items-center border-0 bg-white hover:bg-white flex-shrink flex-grow-0;
+    padding: 0.375rem;
+
+    .menuicons {
+        @apply justify-center items-center flex-shrink flex-grow-0 hover:bg-transparent;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+
+    .menuicons {
+        -webkit-tap-highlight-color: transparent;
+        @apply h-6 w-6;
+    }
+}

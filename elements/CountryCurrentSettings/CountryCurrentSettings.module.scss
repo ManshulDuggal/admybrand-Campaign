@@ -1,0 +1,7 @@
+.countryCurrentSettingSuggested {
+    border-bottom: 1px solid #e8eff5;
+    @apply flex text-base sm:px-6 md:px-10 lg:px-10 sm:py-4 md:py-6 lg:py-6;
+}
+.countryCurrentSettingSuggestedHeading {
+    @apply flex flex-col font-medium text-base text-secondary font-pops sm:px-6 md:px-10 lg:px-10 sm:py-4 md:py-6 lg:py-6;
+}

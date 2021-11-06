@@ -1,0 +1,180 @@
+.bulletclass {
+  @apply bg-white opacity-100 border-extra-placeholder border;
+}
+
+.bulletactive {
+  @apply bg-primary-pink border-extra-pink border opacity-100;
+}
+
+.imagecontainermain {
+  width: 100vw;
+}
+
+.text {
+  @apply font-inter text-center text-secondary mt-4 text-sm md:text-base
+}
+
+.card {
+  @apply flex justify-center items-center flex-col md:px-24 mx-24 mb-20
+}
+
+.name {
+  @apply text-secondary font-semibold
+}
+
+.divide {
+  @apply bg-extra-placeholder rounded-full h-1 w-14 my-6
+}
+
+.btnviewleft {
+  -webkit-tap-highlight-color: transparent;
+
+  left: 3.5rem;
+  @apply flex absolute z-20 self-center items-center rounded-md justify-center bg-white hover:bg-gray-300 cursor-pointer;
+}
+
+.btnviewright {
+  -webkit-tap-highlight-color: transparent;
+
+  right: 3.5rem;
+  @apply flex absolute z-20 items-center self-center justify-center bg-white hover:bg-gray-300 cursor-pointer rounded-md;
+}
+
+.leftbtn {
+  transform: rotate(0deg);
+  -webkit-tap-highlight-color: transparent;
+  @apply flex justify-center items-center;
+}
+.rightbtn {
+  transform: rotate(180deg);
+  -webkit-tap-highlight-color: transparent;
+  @apply flex justify-center items-center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bulletclass {
+    @apply relative -bottom-2 w-1 h-1;
+  }
+  .btnviewright,
+  .btnviewleft {
+    @apply hidden;
+  }
+
+  .imagecontainermain {
+    height: 15vh;
+  }
+
+  .scrollfivewrapper {
+    height: auto;
+    margin-top: 3.5rem;
+    @apply flex w-full overflow-hidden;
+
+    .scrollfivetopcontainer {
+      @apply flex w-full h-auto;
+
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bulletclass {
+    @apply relative -bottom-2 w-1 h-1;
+  }
+
+  .imagecontainermain {
+    height: 30vh;
+  }
+
+  .scrollfivewrapper {
+    margin-top: 3.5rem;
+    padding: 0 4rem;
+    @apply flex w-full overflow-hidden;
+
+    .scrollfivetopcontainer {
+      padding: 0 3rem;
+      @apply flex w-full h-auto relative;
+
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {
+  .bulletclass {
+    @apply relative bottom-0 w-2 h-2;
+  }
+
+  .imagecontainermain {
+    height: 15vh;
+  }
+
+  .btnviewright,
+  .btnviewleft {
+    width: 1.9375rem;
+    @apply flex h-20;
+  }
+
+  .scrollfivewrapper {
+
+    padding: 0 4rem;
+
+    @apply flex w-full overflow-hidden;
+
+    .scrollfivetopcontainer {
+      @apply flex w-full h-auto;
+
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .imagecontainermain {
+    height: 15vh;
+  }
+
+  .scrollfivewrapper {
+
+    @apply flex w-full overflow-hidden;
+
+    .scrollfivetopcontainer {
+      @apply flex w-full h-auto;
+
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .imagecontainermain {
+    height: 30vh;
+  }
+
+  .scrollfivewrapper {
+    margin-bottom: 5rem;
+    @apply flex w-4/5 overflow-hidden;
+
+    .scrollfivetopcontainer {
+      @apply flex w-full justify-center items-center h-auto;
+
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,51 @@
+.adsCardPosition {
+    @apply flex flex-col flex-grow mt-8;
+}
+
+.searchPageContainer{
+  @apply mx-auto;
+}
+
+.searchPageSubContainer{
+  @apply flex mb-4 z-50;
+}
+
+.pageNumberContainer{
+  @apply flex justify-start;
+}
+
+.mapFloatButtonContainer{
+  @apply flex justify-center items-center;
+}
+
+.aboutResults{
+    @apply font-inter text-extra-placeholder mb-2 text-sm ml-1 xl:ml-20 lg:ml-10 md:ml-6 sm:ml-1;
+  }
+  
+  .aboutResultsLeft{
+    @apply font-inter text-extra-placeholder mb-2 text-sm ml-6;
+  }
+  .noResults{
+    @apply font-inter text-secondary my-3 text-lg ml-1 xl:ml-20 lg:ml-10 md:ml-6 sm:ml-1;
+  }
+  
+  .noResultsLeft{
+    @apply font-inter text-secondary my-3 text-lg ml-6;
+  }
+
+.noAdsCard {
+@apply hidden m-0 p-0;
+}
+
+@media only screen and (max-width: 1150px) {
+    .headerContainer {
+      z-index: 10;
+      @apply hidden bg-black h-32;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .globalsearchcontainer {
+      @apply hidden  bg-black;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+/* ----------------------------------------RESPONSIVE ------------------------------------------ */
+@mixin screen($media) {
+    @if $media==mobile {
+        @media only screen and (max-width: $mobile-max-width) {
+            @content;
+        }
+    }
+
+    @else if $media==tablet {
+        @media only screen and (min-width: $mobile-max-width + 1) and (max-width: $tablet-max-width) {
+            @content;
+        }
+    }
+
+    @else if $media==desktop {
+        @media only screen and (min-width: $tablet-max-width + 1) and (max-width: $desktop-max-width) {
+            @content;
+        }
+    }
+
+    @else if $media==big-screen {
+        @media only screen and (min-width: $desktop-max-width + 1) {
+            @content;
+        }
+    }
+}

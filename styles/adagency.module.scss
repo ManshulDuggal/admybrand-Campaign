@@ -1,0 +1,71 @@
+
+.maincontainer {
+  @apply flex flex-col items-center;
+}
+.MobileNumberDiv
+ {
+  @apply   mt-2 md:ml-4 md:mr-4 md:mt-8 lg:mt-8 flex flex-col place-content-center ml-2 mr-2;
+}
+.inputBox {
+  font-size: 1rem;
+  width: 100%;
+  line-height: 1.5rem;
+  @apply outline-none border-2 border-bar h-10  md:h-12 rounded-md text-secondary lg:mt-3 md:px-6 px-2 font-pops font-medium;
+}
+
+.space {
+  height: 38rem;
+  @apply hidden lg:flex
+}
+
+.barcontainer {
+  height: 4.5rem;
+  box-shadow: rgb(0 0 0 / 8%) 0px -1px 10px 6px !important;
+  @apply flex lg:justify-between justify-center items-center border rounded-full lg:mt-36 mt-48 mb-20 lg:w-1/2  w-11/12;
+}
+
+.barcontainertext {
+  @apply text-secondary font-pops md:text-lg text-sm font-medium md:px-20;
+}
+
+.innercontainer {
+  @apply hidden md:flex h-full;
+
+  .p {
+    @apply pr-36;
+  }
+}
+
+.containerone {
+  @apply hover:bg-gray-100 rounded-full h-full flex flex-col justify-center pl-10;
+}
+
+.barcontainerbutton {
+  @apply text-primary font-pops md:text-lg font-medium hover:text-secondary cursor-pointer md:px-24;
+}
+
+.searchimg {
+  @apply md:flex h-12 w-12 justify-center items-center rounded-full bg-primary-pink cursor-pointer mr-3 hidden;
+}
+
+.divider {
+  @apply border-r my-3;
+}
+
+.inputbox {
+  @apply outline-none bg-transparent;
+}
+
+.bartext {
+  @apply text-xs font-pops font-semibold;
+}
+
+.pincodecontainer {
+  overflow: inherit;
+  width: 26rem;
+  @apply lg:pl-10 pl-4 hover:bg-gray-100 h-full rounded-full flex flex-col justify-center;
+}
+
+.heading {
+  @apply text-secondary font-semibold font-pops text-4xl  px-4  text-center mt-20 
+}

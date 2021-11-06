@@ -1,0 +1,49 @@
+$primary-color: #415f8b;
+
+.mainwrapper {
+  color: $primary-color;
+  @apply hidden flex-col lg:flex  w-full pt-6 justify-center items-center;
+  .mouse {
+    padding: 0 0.875rem;
+    height: 3.5rem;
+    border: 3px solid $primary-color;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+    transform: scale(0.8);
+    &::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $primary-color;
+      border-radius: 50%;
+      opacity: 1;
+      animation: wheel 2s infinite ease-in-out;
+      -webkit-animation: wheel 2s infinite ease-in-out;
+    }
+  }
+  .scrollArrow {
+    @apply h-6 w-6 animate-bounce  transform scale-50;
+  }
+
+  @keyframes wheel {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      top: 1.875rem;
+    }
+  }
+
+  @-webkit-keyframes wheel {
+    to {
+      opacity: 0;
+      top: 1.875rem;
+    }
+  }
+}

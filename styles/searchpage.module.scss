@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1150px) {
+  .headerContainer {
+    z-index: 10;
+    @apply hidden bg-black h-32;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .globalsearchcontainer {
+    @apply hidden  bg-black;
+  }
+}

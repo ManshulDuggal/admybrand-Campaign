@@ -1,0 +1,6 @@
+.mainWrapper{
+    @apply min-h-screen py-4 sm:py-8 md:py-12 lg:py-16  bg-white;
+}
+.textLightItalic{
+    @apply text-extra-placeholder italic;
+}

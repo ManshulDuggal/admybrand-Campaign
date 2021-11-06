@@ -1,0 +1,47 @@
+.container {
+  background-color: #ffffff;
+  margin-top: -4.65rem;
+  border-top-right-radius: 0.625rem;
+  border-top-left-radius: 0.625rem;
+  z-index: 1;
+  @apply flex flex-col w-screen  justify-start h-screen relative;
+}
+.editLocationBox {
+  border-width: 0.063rem;
+  border-color: gray;
+  @apply p-3 h-14  flex items-center bg-white rounded-full justify-around;
+}
+.globalsearchArrow {
+  @apply flex items-center h-8 w-8 p-1 ml-1 font-light text-text;
+}
+.inputBox {
+  background-color: transparent;
+  font-size: 1rem;
+  @apply h-12  ml-6 w-72 outline-none font-inter font-normal;
+}
+.mic_close_container {
+  @apply flex justify-evenly w-36 h-auto;
+}
+.recentSearchTitle {
+  @apply text-extra-pink mt-2 p-3;
+}
+.recentSearchItem {
+  @apply flex flex-row justify-between px-4;
+}
+.locationName {
+  width: 60%;
+  @apply flex h-10;
+}
+.recentSearchTitle {
+  font-size: 0.938rem;
+  line-height: 1.125rem;
+  @apply font-inter font-normal;
+}
+.locationName {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  @apply font-normal font-inter text-text;
+}
+.clearsearch {
+  @apply font-inter text-sm mx-3 my-5 font-medium text-text;
+}

@@ -1,0 +1,70 @@
+.container {
+  height: 48.81rem;
+
+  @apply bg-primary-placeholder w-full relative flex flex-col justify-center md:pl-24 p-4 md:mb-72;
+}
+
+.containertwo {
+  @apply flex flex-col lg:hidden border shadow-md rounded-2xl my-2 p-2;
+}
+
+.text {
+  @apply font-inter text-sm text-text;
+}
+
+.barcode {
+  @apply font-pops font-semibold text-secondary text-2xl  mr-2;
+}
+
+.detail {
+  @apply md:w-1/3 font-inter text-secondary mt-4 text-sm md:text-base;
+}
+
+.button {
+  width: 13rem;
+  @apply h-12 bg-primary-pink rounded-full flex items-center justify-center my-4;
+}
+
+.heading {
+  @apply font-pops font-semibold text-secondary md:text-2xl my-4;
+}
+
+.description {
+  @apply font-inter text-secondary;
+}
+
+.smallcontainerone {
+  width: 20.62rem;
+  height: 23.94rem;
+  position: absolute;
+  right: 30.94rem;
+  top: 7.5rem;
+  @apply bg-white border rounded-2xl shadow-md p-8;
+}
+
+.smallcontainertwo {
+  width: 20.62rem;
+  height: 23.94rem;
+  position: absolute;
+  right: 8.44rem;
+  top: 10.31rem;
+  @apply bg-white border rounded-2xl shadow-md p-8;
+}
+
+.smallcontainerthree {
+  width: 20.62rem;
+  height: 23.94rem;
+  position: absolute;
+  right: 30.94rem;
+  top: 33.31rem;
+  @apply bg-white border rounded-2xl shadow-md p-8;
+}
+
+.smallcontainerfour {
+  width: 20.62rem;
+  height: 23.94rem;
+  position: absolute;
+  right: 8.44rem;
+  top: 36.125rem;
+  @apply bg-white border rounded-2xl shadow-md p-8;
+}

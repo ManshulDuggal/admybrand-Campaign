@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="131" viewBox="0 0 199 131">
+  <g id="Mobi" transform="translate(-467 -146)">
+    <rect id="Rectangle_60" data-name="Rectangle 60" width="199" height="131" rx="20" transform="translate(467 146)" fill="#ef7f1a"/>
+    <g id="_714126384064" transform="translate(507 169)">
+      <path id="Path_7" data-name="Path 7" d="M45,4H75c3,0,5,3,5,5V77c0,2-2,5-5,5H45c-3,0-5-3-5-5V9C40,7,42,4,45,4ZM43,15H77V67H43ZM60,71a4,4,0,1,1-4,4A4.3,4.3,0,0,1,60,71ZM55,9H66v1H54V9Z" fill="#fefefe" fill-rule="evenodd"/>
+      <path id="Path_8" data-name="Path 8" d="M60,26,48,33h0v6h0l6,4-6,4h0v6h0l12,7,12-7h0V47h0l-6-4,6-4h0V33h0ZM54,50l6-4h0l6,4-6,4Zm6-10h0l6-4-6-4-6,4,6,4Z" fill="#fefefe" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

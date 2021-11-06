@@ -1,0 +1,79 @@
+$animationDelay: 4s;
+$animationBgColor: #000;
+
+@mixin colors($pColor, $hColor){
+  background-color: $pColor;
+  &:hover{
+    background-color: $hColor;
+    box-shadow:0px 0px 25px 1px $hColor;
+  }
+}
+.right {
+  @apply shadow-md rounded-xl p-8 md:ml-10 bg-white mb-20 py-14;
+}
+.topbutton {
+  @apply font-pops rounded-xl px-4 py-2 md:px-6 text-white w-24 flex justify-center cursor-pointer transition-all ;
+  &:hover{
+    @apply  hover:-mt-2 ;
+
+  }
+
+}
+
+.b1 {
+  @include colors(#48999A,#4ed03a);
+}
+.b2 {
+  @include colors(#3C82AF,#3f89e2);
+}
+.b3 {
+  @include colors(#595CA6,#0020ff);
+
+}
+.b4 {
+  @include colors(#864798,#6720EB);
+  
+}
+.b5 {
+  @include colors(#D13077,#ff015b);
+}
+.b6 {
+  @include colors(#D7634E,#ff593f);
+}
+.maincontainer {
+  @apply flex flex-col justify-center items-center bg-primary-placeholder;
+}
+.gridcontainer {
+  @apply grid grid-cols-3 gap-1  md:flex md:mx-2;
+}
+.subscribe {
+  @apply bg-primary-pink hover:bg-primary-pinkDark active:transform active:scale-95 select-none transition-all rounded-full w-1/3 flex justify-center text-base items-center cursor-pointer;
+}
+.subtext {
+  @apply text-white font-semibold font-pops text-xs md:text-base;
+}
+.p {
+  // font-size: 0.75rem;
+  @apply font-inter  text-text text-sm;
+}
+.h1 {
+  @apply font-inter font-semibold text-secondary my-2;
+}
+.topcontainer {
+  @apply md:py-20 py-10 flex flex-col lg:flex-row items-center justify-center;
+}
+.middle {
+  @apply md:flex justify-center items-center w-11/12;
+}
+.left {
+  @apply flex flex-col items-start;
+}
+.inputcontainer {
+  @apply mt-12 border border-lightblue rounded-full  flex justify-between focus-within:shadow-lg caret-primary-pink;
+}
+.input {
+  @apply w-2/3 m-3 outline-none font-inter;
+}
+.toptext {
+  @apply font-pops mr-3 my-2 mt-12 md:mt-2 text-secondary font-semibold;
+}

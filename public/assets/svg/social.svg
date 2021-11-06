@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="131" viewBox="0 0 199 131">
+  <g id="Social_media_listening" data-name="Social media listening" transform="translate(-242 -308)">
+    <g id="Rectangle_66" data-name="Rectangle 66" transform="translate(242 308)" fill="#f3f3f3" stroke="#c8c8c8" stroke-width="1.5">
+      <rect width="199" height="131" rx="20" stroke="none"/>
+      <rect x="0.75" y="0.75" width="197.5" height="129.5" rx="19.25" fill="none"/>
+    </g>
+    <g id="Group_24" data-name="Group 24" transform="translate(-4051 -800)">
+      <text id="Social" transform="translate(4315 1186)" fill="#202020" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Social</tspan></text>
+      <text id="Media" transform="translate(4413.624 1171.018)" fill="#f08" font-size="13" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Media</tspan></text>
+      <text id="Listening" transform="translate(4413.624 1186.615)" fill="#2196f3" font-size="13" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Listening</tspan></text>
+    </g>
+  </g>
+</svg>

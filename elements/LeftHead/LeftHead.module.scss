@@ -1,0 +1,20 @@
+.leftHeadContainer {
+    @apply flex pl-4 lg:pl-[8.4375rem] items-center h-full w-auto flex-row;
+
+    .leftHeadNinedots {
+        @apply flex h-6 w-6 justify-center items-center mr-1 transition-all duration-700 ease-in-out;
+    }
+}
+
+.leftcontainerSearchPage {
+    padding-left: 2.4375rem;
+    @apply flex items-center h-full w-auto flex-row;
+
+    .leftHeadNinedots {
+        @apply flex h-6 w-6 justify-center items-center mr-1 transition-all duration-700 ease-in-out;
+    }
+}
+
+.leftHeadHomelogo {
+    @apply h-4;
+}

@@ -1,0 +1,43 @@
+.container {
+  @apply bg-primary-placeholder w-full flex items-center flex-col p-4;
+}
+
+.innercontainer {
+  height: 25.75rem;
+  width: 16.875rem;
+  @apply shadow border rounded-2xl m-8 bg-white p-6 hidden lg:block;
+}
+
+.heading {
+  @apply text-secondary font-semibold font-pops text-4xl  px-4  text-center pb-8 pt-10;
+}
+
+.description {
+  @apply font-inter text-secondary  text-sm md:text-base
+}
+
+.top {
+  @apply flex justify-between items-center;
+}
+
+.subheading {
+  @apply font-pops md:text-xl font-semibold text-secondary my-4 text-base;
+}
+
+.subheadingtwo {
+  @apply font-pops md:text-xl font-semibold text-secondary my-4 text-base;
+}
+.description {
+  @apply hidden md:block font-inter text-secondary text-sm md:text-base;
+}
+
+.containertwo {
+  @apply flex justify-center flex-col md:flex-row;
+}
+.arrow {
+  @apply text-3xl mx-2 text-grey;
+}
+
+.containerthree {
+  @apply flex flex-col lg:hidden border shadow-md rounded-2xl m-2 p-2 w-full bg-white;
+}

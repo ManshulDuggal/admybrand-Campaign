@@ -1,0 +1,35 @@
+.main {
+  @apply min-h-screen bg-white fixed z-50 w-full top-0 bottom-0 left-0 right-0 flex flex-col;
+}
+
+.scrollLayout{
+  @apply  py-4 mb-16 px-4 md:px-0 font-inter  flex flex-col overflow-y-scroll h-screen select-none left-0 right-0;
+}
+.categorySection{
+  @apply container mx-auto max-w-5xl border-b md:px-10;
+}
+.categoryHeading{
+  @apply text-base md:text-xl font-semibold text-secondary opacity-80 mt-4 leading-tight tracking-tighter;
+}
+.categoryGrid{
+  @apply grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4 py-4;
+}
+.categoryCard{
+  @apply p-2 md:p-4 flex justify-between sm:justify-center  space-x-4 items-center rounded-xl transition-all cursor-pointer active:border-pink-500 active:bg-pink-100 active:border-2 hover:bg-gray-100 border-2 border-white active:brightness-125;
+  -webkit-tap-highlight-color: transparent;
+}
+.cardDescriptionContainer{
+  @apply flex flex-col flex-1;
+}
+.cardDescriptionHeading{
+  @apply text-lg font-semibold text-secondary leading-tight;
+}
+.cardDescriptionPara{
+  @apply text-sm text-gray-500;
+}
+.sectionTogglerContainer{
+  @apply bottom-0 left-0 right-0 py-3 bg-gray-100 shadow-2xl border-t border-gray-300 flex justify-center items-center fixed;
+}
+.sectionToggler{
+  @apply bg-white border rounded-full p-4 flex border-gray-300 justify-center items-center hover:border-gray-400;
+}

@@ -1,0 +1,128 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .privatescrollcardwrapper {
+    width: 14.6875rem;
+    height: 19.125rem;
+    @apply flex  bg-white rounded-2xl flex-col overflow-hidden shadow-xl;
+    .privatescrolltop {
+      height: 10.25rem;
+      @apply flex w-full justify-center items-center;
+    }
+    .privatescrollbottom {
+      @apply flex py-4 px-4 flex-col;
+      .privateheading {
+        @apply flex font-pops font-medium text-xl text-secondary;
+      }
+      .privatedescription {
+        @apply flex justify-center items-center;
+        .privatedescriptiontext {
+          @apply font-inter text-sm font-normal text-text text-left;
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .privatescrollcardwrapper {
+    width: 14.6875rem;
+    height: 19.125rem;
+    @apply flex  bg-white rounded-2xl flex-col overflow-hidden shadow-xl;
+    .privatescrolltop {
+      height: 10.25rem;
+      @apply flex w-full justify-center items-center;
+    }
+
+    .privatescrollbottom {
+      @apply flex py-4 px-4 flex-col;
+      .privateheading {
+        @apply flex font-pops font-medium text-xl text-secondary;
+      }
+      .privatedescription {
+        @apply flex justify-center items-center;
+        .privatedescriptiontext {
+          @apply font-inter text-sm font-normal text-text text-left;
+        }
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .privatescrollcardwrapper {
+    width: 14.6875rem;
+    height: 21.1875rem;
+    @apply flex  bg-white rounded-2xl flex-col overflow-hidden shadow-xl;
+    .privatescrolltop {
+      height: 10.25rem;
+      @apply flex w-full justify-center items-center;
+    }
+
+    .privatescrollbottom {
+      @apply flex py-4 px-4 flex-col;
+      .privateheading {
+        @apply flex font-pops font-medium text-xl text-secondary;
+      }
+      .privatedescription {
+        @apply flex justify-center items-center;
+        .privatedescriptiontext {
+          @apply font-inter text-sm font-normal text-text text-left;
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .privatescrollcardwrapper {
+    width: 14.6875rem;
+    height: 21.1875rem;
+    @apply flex  bg-white rounded-2xl flex-col overflow-hidden shadow-xl;
+    .privatescrolltop {
+      height: 10.25rem;
+      @apply font-inter text-sm font-normal text-text text-left;
+    }
+
+    .privatescrollbottom {
+      @apply flex py-4 px-4 flex-col;
+      .privateheading {
+        @apply flex font-pops font-medium text-xl text-secondary;
+      }
+      .privatedescription {
+        @apply flex justify-center items-center;
+        .privatedescriptiontext {
+          @apply font-inter text-sm font-normal text-text text-left;
+        }
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .privatescrollcardwrapper {
+    width: 14.6875rem;
+    height: 21.1875rem;
+    @apply flex  bg-white rounded-2xl flex-col overflow-hidden shadow-xl;
+    .privatescrolltop {
+      height: 10.25rem;
+      @apply flex w-full justify-center items-center;
+    }
+
+    .privatescrollbottom {
+      @apply flex py-4 px-4 flex-col;
+      .privateheading {
+        @apply flex font-pops font-medium text-xl text-secondary;
+      }
+      .privatedescription {
+        @apply flex justify-center items-center;
+        .privatedescriptiontext {
+          @apply font-inter text-sm font-normal text-text text-left;
+        }
+      }
+    }
+  }
+}

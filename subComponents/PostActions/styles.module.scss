@@ -1,0 +1,6 @@
+.mainWrapper{
+    @apply flex justify-center flex-col;
+}
+.mainWrapper > div{
+    @apply flex;
+}

@@ -1,0 +1,24 @@
+.container {
+    @apply w-full flex justify-center my-20 
+}
+
+.innercontainer {
+    height:  23.132rem;
+    @apply lg:w-4/12 py-8 px-8 rounded-xl m-4 relative
+}
+
+.para {
+    @apply font-inter text-secondary my-4 w-1/2 hidden lg:block
+}
+
+.heading {
+    @apply font-pops text-lg my-2 font-semibold
+}
+
+.image {
+    @apply absolute right-0 bottom-0 hidden lg:block
+}
+
+.link {
+    @apply text-link font-inter font-semibold md:text-xl cursor-pointer w-2/3
+}

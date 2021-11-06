@@ -1,0 +1,292 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .scrollthreemainwrapper {
+    margin-top: 3.5rem;
+    @apply flex w-full  flex-col;
+    .topcontainer {
+      height: 3.5rem;
+      padding: 0 1.40625rem;
+      @apply flex  w-full justify-between items-center;
+      .headingcontainer {
+        @apply flex items-center;
+        .headingcontainertext {
+          @apply flex font-pops text-base font-semibold text-secondary;
+        }
+      }
+      .linkcontainer {
+        .linkcontainertext {
+          @apply flex font-pops text-sm font-medium hover:underline text-primary;
+        }
+      }
+    }
+    .bottomcontainer {
+      @apply flex w-full h-full justify-between;
+      .leftcontainer {
+        width: 6.5625rem;
+        @apply hidden  justify-end;
+      }
+      .midcontainer {
+        width: calc(#{100%});
+        .scrollitem {
+          @apply flex w-full h-full px-4 flex-col;
+          .descriptioncontainer {
+            @apply flex flex-col;
+            .descriptiontop {
+              @apply flex;
+              .leftname {
+                @apply font-inter font-normal text-text text-lg;
+              }
+              .rightname {
+                @apply font-inter font-semibold text-secondary text-lg;
+              }
+            }
+            .descriptionbottom {
+              .typename {
+                @apply flex font-inter font-normal text-lg text-text;
+              }
+            }
+          }
+        }
+      }
+      .rightcontainer {
+        width: 6.5625rem;
+        @apply hidden   justify-start;
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .scrollthreemainwrapper {
+    height: 31.3125rem;
+    margin-top: 3.5rem;
+    @apply flex w-full  flex-col;
+    .topcontainer {
+      height: 3.5rem;
+      padding: 0 1.40625rem;
+      @apply flex  w-full justify-between items-center;
+      .headingcontainer {
+        @apply flex items-center;
+        .headingcontainertext {
+          @apply flex font-pops text-lg font-medium text-secondary;
+        }
+      }
+      .linkcontainer {
+        .linkcontainertext {
+          @apply flex font-pops text-sm font-semibold hover:underline text-primary;
+        }
+      }
+    }
+    .bottomcontainer {
+      @apply flex w-full h-full pt-2  justify-between;
+      .leftcontainer {
+        width: 6.5625rem;
+        @apply hidden  justify-end pr-4;
+      }
+      .midcontainer {
+        width: calc(#{100%});
+        .scrollitem {
+          @apply flex w-full h-full flex-col px-4;
+          .descriptioncontainer {
+            @apply flex flex-col;
+            .descriptiontop {
+              @apply flex;
+              .leftname {
+                @apply font-inter font-normal text-text text-lg;
+              }
+              .rightname {
+                @apply font-inter font-semibold text-secondary text-lg;
+              }
+            }
+            .descriptionbottom {
+              .typename {
+                @apply flex font-inter font-normal text-lg text-text;
+              }
+            }
+          }
+        }
+      }
+      .rightcontainer {
+        width: 6.5625rem;
+        @apply hidden   justify-start;
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .scrollthreemainwrapper {
+    height: 31.3125rem;
+    margin-top: 7.5rem;
+    @apply flex w-full  flex-col;
+    .topcontainer {
+      height: 3.5rem;
+      padding: 0 6.21875rem;
+      @apply flex  w-full justify-between items-center;
+      .headingcontainer {
+        @apply flex items-center;
+        .headingcontainertext {
+          @apply flex font-pops text-2xl font-semibold text-secondary;
+        }
+      }
+      .linkcontainer {
+        .linkcontainertext {
+          @apply flex font-pops text-xl font-medium hover:underline text-primary;
+        }
+      }
+    }
+    .bottomcontainer {
+      @apply flex w-full h-full pt-10  justify-between;
+      .leftcontainer {
+        width: 6.5625rem;
+        @apply flex  justify-end;
+      }
+      .midcontainer {
+        width: calc(#{100%} - #{6.5625rem + 6.5625rem});
+        .scrollitem {
+          @apply flex w-full h-full flex-col px-0;
+          .descriptioncontainer {
+            @apply flex flex-col;
+            .descriptiontop {
+              @apply flex;
+              .leftname {
+                @apply font-inter font-normal text-text text-lg;
+              }
+              .rightname {
+                @apply font-inter font-semibold text-secondary text-lg;
+              }
+            }
+            .descriptionbottom {
+              .typename {
+                @apply flex font-inter font-normal text-lg text-text;
+              }
+            }
+          }
+        }
+      }
+      .rightcontainer {
+        width: 6.5625rem;
+        @apply flex   justify-start pl-4;
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .scrollthreemainwrapper {
+    height: 31.3125rem;
+    margin-top: 7.5rem;
+    @apply flex w-full  flex-col;
+    .topcontainer {
+      height: 3.5rem;
+      padding: 0 6.4375rem;
+      @apply flex  w-full justify-between items-center;
+      .headingcontainer {
+        @apply flex items-center;
+        .headingcontainertext {
+          @apply flex font-pops text-4xl font-semibold text-secondary;
+        }
+      }
+      .linkcontainer {
+        .linkcontainertext {
+          @apply flex font-pops text-xl font-medium hover:underline text-primary;
+        }
+      }
+    }
+    .bottomcontainer {
+      @apply flex w-full h-full pt-10  justify-between;
+      .leftcontainer {
+        width: 6.5625rem;
+        @apply flex  justify-end;
+      }
+      .midcontainer {
+        width: calc(#{100%} - #{6.5625rem + 6.5625rem});
+        .scrollitem {
+          @apply flex w-full h-full flex-col;
+          .descriptioncontainer {
+            @apply flex flex-col;
+            .descriptiontop {
+              @apply flex;
+              .leftname {
+                @apply font-inter font-normal text-text text-lg;
+              }
+              .rightname {
+                @apply font-inter font-semibold text-secondary text-lg;
+              }
+            }
+            .descriptionbottom {
+              .typename {
+                @apply flex font-inter font-normal text-lg text-text;
+              }
+            }
+          }
+        }
+      }
+      .rightcontainer {
+        width: 6.5625rem;
+        @apply flex   justify-start;
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .scrollthreemainwrapper {
+    height: 31.3125rem;
+    margin-top: 7.5rem;
+    @apply flex w-full  flex-col;
+    .topcontainer {
+      height: 3.5rem;
+      @apply flex  w-full justify-between items-center;
+      .headingcontainer {
+        @apply flex items-center;
+        .headingcontainertext {
+          @apply flex font-pops text-4xl font-semibold text-secondary;
+        }
+      }
+      .linkcontainer {
+        .linkcontainertext {
+          @apply flex font-pops text-lg font-medium hover:underline text-primary;
+        }
+      }
+    }
+    .bottomcontainer {
+      @apply flex w-full h-full pt-10  justify-between;
+      .leftcontainer {
+        width: 6.5625rem;
+        @apply flex  justify-end;
+      }
+      .midcontainer {
+        width: calc(#{100%} - #{6.5625rem + 6.5625rem});
+        .scrollitem {
+          @apply flex w-full h-full flex-col;
+          .descriptioncontainer {
+            @apply flex flex-col;
+            .descriptiontop {
+              @apply flex;
+              .leftname {
+                @apply font-inter font-normal text-text text-lg;
+              }
+              .rightname {
+                @apply font-inter font-semibold text-secondary text-lg;
+              }
+            }
+            .descriptionbottom {
+              .typename {
+                @apply flex font-inter font-normal text-lg text-text;
+              }
+            }
+          }
+        }
+      }
+      .rightcontainer {
+        width: 6.5625rem;
+        @apply flex   justify-start;
+      }
+    }
+  }
+}

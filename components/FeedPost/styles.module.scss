@@ -1,0 +1,12 @@
+.mainWrapper{
+    @apply flex flex-col space-y-3 relative;
+    p{
+        @apply text-base leading-snug;
+    }
+    .postImgPlaceholder{
+        @apply w-full rounded-md bg-gray-300 h-72;
+    }
+    
+}
+
+

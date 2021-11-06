@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199" height="131" viewBox="0 0 199 131">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.046" y1="0.024" x2="1.024" y2="0.976" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c6aff"/>
+      <stop offset="1" stop-color="#c313ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Zeedback" transform="translate(-233 -146)">
+    <rect id="Rectangle_59" data-name="Rectangle 59" width="199" height="131" rx="20" transform="translate(233 146)" fill="url(#linear-gradient)"/>
+    <g id="Zeedback-2" data-name="Zeedback" transform="translate(298 183)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+        <rect id="Rectangle_90" data-name="Rectangle 90" width="6.749" height="20.844" rx="3.375" transform="translate(45.281 29.915) rotate(90)" fill="#fff"/>
+        <rect id="Rectangle_91" data-name="Rectangle 91" width="6.749" height="31.391" rx="3.375" transform="translate(55.829 39.723) rotate(90)" fill="#fff"/>
+        <rect id="Rectangle_92" data-name="Rectangle 92" width="6.749" height="44.873" rx="3.375" transform="translate(69.31 49.892) rotate(90)" fill="#fff"/>
+        <rect id="Rectangle_93" data-name="Rectangle 93" width="6.749" height="20.844" rx="3.375" transform="translate(45.281 20.201) rotate(90)" fill="#fff"/>
+        <rect id="Rectangle_94" data-name="Rectangle 94" width="6.749" height="45.242" rx="3.375" transform="translate(45.242 0) rotate(90)" fill="#fff"/>
+        <rect id="Rectangle_95" data-name="Rectangle 95" width="6.749" height="31.391" rx="3.375" transform="translate(45.242 10.293) rotate(90)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

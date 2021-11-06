@@ -1,0 +1,14 @@
+.wrapper{
+    @apply flex flex-col space-y-2 overflow-hidden;
+    .secondaryWrapper{
+        @apply relative flex;
+    }
+}
+
+
+.iconBtnWrapper{
+    @apply flex space-x-2 absolute top-2 right-2;
+    .iconBtn{
+        @apply bg-white rounded-full p-1 flex justify-center items-center hover:opacity-75 active:opacity-50 transition-all;
+    }
+}

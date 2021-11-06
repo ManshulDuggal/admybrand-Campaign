@@ -1,0 +1,117 @@
+.mapPointer {
+    @apply flex z-30 bg-white text-gray-900 cursor-pointer text-base font-inter h-10 w-24 shadow rounded-full justify-center items-center pt-2 pb-2 pr-3 pl-3  transform transition duration-200 hover:scale-105 hover:shadow-2xl;
+}
+
+.popupContainer{
+  @apply rounded-xl z-30;
+}
+
+.popupElements{
+  @apply flex-none relative;
+}
+
+.popupImage{
+  @apply w-80 h-32 mt-4 rounded-2xl;
+}
+
+.popupHeading{
+  @apply flex-auto pt-1;
+}
+
+.mapCard {
+    height: 19.6rem;
+    width: 19.6rem;
+    @apply flex z-40 flex-col justify-center items-center bg-white font-inter p-1 mb-1 rounded-full;
+  }
+  
+  .mapCardNameClass {
+    @apply flex flex-wrap justify-center p-1;
+  }
+  
+  .mapCardName {
+    @apply flex-auto lg:text-lg sm:text-base font-semibold text-secondary lg:w-10/12 sm:w-8/12;
+  }
+  
+  .mapCardImage {
+    @apply w-full flex text-xs items-center font-medium text-gray-500 mt-2 mb-2;
+  }
+
+
+  .adsCardLeft {
+    width: 35%;
+    height: 13rem;
+    @apply relative flex border-b border-bar mt-4 mb-4 lg:ml-11 sm:ml-2 font-inter lg:mr-2;
+    }
+    .adsCardHeadingClass {
+    @apply relative flex flex-wrap justify-between;
+    }
+    .adsCardHeading {
+    @apply flex-auto lg:text-lg sm:text-base font-semibold text-secondary lg:w-10/12 sm:w-8/12;
+    }
+    
+    .adsCardLocation {
+    @apply flex items-center w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+    }
+    
+    .adsCardStrike {
+    @apply font-normal text-sm line-through text-grey ml-4 mr-3;
+    }
+    .adsCardPrice {
+    @apply w-full flex-none text-sm font-medium text-gray-500 mt-2 mb-3;
+    }
+    .adsCardDefaultBadge {
+    @apply w-full flex-none text-sm  font-medium text-gray-500 mt-0.5 mb-1;
+    }
+    
+    .adsCardButtonDiv {
+    @apply flex-auto flex space-x-3;
+    }
+    .adsCardPriceTag {
+    @apply flex items-center text-text font-semibold text-lg;
+    }
+    
+    .adsCardDim {
+    @apply text-grey font-normal;
+    }
+    .adsCardAddress {
+    @apply text-text font-normal mr-2;
+    }
+    
+    .adsCardButtonClass {
+    @apply flex space-x-3 text-xs font-medium;
+    }
+    
+    .adsCardCategory {
+    @apply text-secondary font-normal ml-2;
+    }
+    
+    .adsCardActionButton {
+    @apply flex items-center text-xl font-semibold text-gray-500;
+    }
+    
+    .noAdsCard {
+    @apply hidden m-0 p-0;
+    }
+
+
+
+
+// @media only screen and (max-width: 767px){
+
+// }
+
+// @media only screen and (min-width: 768px) {
+
+// }
+
+// @media only screen and (min-width: 990px){
+
+// }
+
+// @media only screen and (min-width: 1030px) {
+
+// }
+
+// @media only screen and (min-width: 1360px){
+    
+// }

@@ -1,0 +1,4 @@
+.fullscreen {
+  background: rgba(33, 33, 33, 0.3);
+  @apply flex absolute top-0 right-0 left-0 bottom-0 z-30 overflow-hidden;
+}

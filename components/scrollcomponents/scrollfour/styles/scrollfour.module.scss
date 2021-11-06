@@ -1,0 +1,998 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .scrollfourwrapper {
+    padding-top: 3.5rem;
+    @apply flex overflow-hidden;
+    .scrollfourcontainer {
+      height: 21.75rem;
+      @apply flex w-full  flex-col;
+      .scrollfourtopcontainer {
+        height: 3.375rem;
+        padding: 0 1rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-base font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply font-pops font-medium text-sm text-primary hover:underline;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 16.875rem;
+              @apply flex justify-center  h-full flex-col px-4;
+              .names {
+                .nametext {
+                  @apply flex font-inter font-medium text-2xl text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 6rem;
+          @apply hidden h-full items-center;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full hover:opacity-50 cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 10.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{1.5rem + 1.2rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 6.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer px-4;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-base text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply hidden;
+        }
+        .scrollfourbottomrightcontainer {
+          width: 2rem;
+          @apply flex h-full items-center mx-1;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 10.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{1.5rem + 1.2rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 6.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-base text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply hidden;
+        }
+        .scrollfourbottomrightcontainer {
+          width: 2rem;
+          @apply flex h-full items-center mx-1;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .scrollfourwrapper {
+    // padding-top: 3.5rem;
+    @apply flex overflow-hidden;
+    .scrollfourcontainer {
+      height: 21.75rem;
+      @apply flex w-full  flex-col;
+      .scrollfourtopcontainer {
+        height: 3.375rem;
+        padding: 0 1rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-lg font-medium text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply font-pops font-medium text-sm text-primary hover:underline;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 16.875rem;
+              @apply flex justify-center  h-full flex-col px-4;
+              .names {
+                .nametext {
+                  @apply flex font-inter font-medium text-2xl text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 6rem;
+          @apply hidden h-full items-center;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full hover:opacity-50 cursor-pointer mr-2;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 10.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{3rem + 3rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 6.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer px-0;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-base text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 3rem;
+          @apply flex h-full items-center mx-0.5;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 10.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{3rem + 3rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 6.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-base text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 3rem;
+          @apply flex h-full items-center mx-0.5;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .scrollfourwrapper {
+    padding-top: 3.5rem;
+    @apply flex overflow-hidden;
+    .scrollfourcontainer {
+      height: 29.6875rem;
+      @apply flex w-full  flex-col;
+      .scrollfourtopcontainer {
+        height: 3.375rem;
+        padding: 0 6.4375rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-2xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply font-pops font-medium text-xl text-primary hover:underline;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{6rem + 6rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 16.875rem;
+              @apply flex justify-center  h-full flex-col px-2;
+              .names {
+                .nametext {
+                  @apply flex font-inter font-medium text-2xl text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 6rem;
+          @apply flex h-full items-center;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full hover:opacity-50 cursor-pointer ml-2;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 16.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{4rem + 4rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 10.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-lg text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 9rem;
+          @apply flex h-full items-center mx-4;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 16.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{4rem + 4rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 10.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-lg text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 9rem;
+          @apply flex h-full items-center mx-4;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .scrollfourwrapper {
+    padding-top: 7.5rem;
+    @apply flex overflow-hidden;
+    .scrollfourcontainer {
+      height: 29.6875rem;
+      @apply flex w-full  flex-col;
+      .scrollfourtopcontainer {
+        height: 3.375rem;
+        padding: 0 6.4375rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply font-pops font-medium text-xl text-primary hover:underline;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{6rem + 6rem});
+          @apply flex h-full px-2;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 16.875rem;
+              @apply flex justify-center  h-full flex-col;
+              .names {
+                .nametext {
+                  @apply flex font-inter font-medium text-2xl text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 6rem;
+          @apply flex h-full items-center;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full hover:opacity-50 cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 16.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{4rem + 4rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 10.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-lg text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 9rem;
+          @apply flex h-full items-center mx-4;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 16.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{4rem + 4rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 10.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-lg text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 9rem;
+          @apply flex h-full items-center mx-4;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .scrollfourwrapper {
+    padding-top: 7.5rem;
+    @apply flex overflow-hidden;
+    .scrollfourcontainer {
+      height: 29.6875rem;
+      @apply flex w-full  flex-col;
+      .scrollfourtopcontainer {
+        height: 3.375rem;
+        padding: 0 6.4375rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply font-pops font-medium text-xl text-primary hover:underline;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{6rem + 6rem});
+          @apply flex h-full px-2;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 16.875rem;
+              @apply flex justify-center  h-full flex-col;
+              .names {
+                .nametext {
+                  @apply flex font-inter font-medium text-2xl text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 6rem;
+          @apply flex h-full items-center;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full hover:opacity-50 cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 16.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{4rem + 4rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 10.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-lg text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 9rem;
+          @apply flex h-full items-center mx-4;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  .tvsmallwrapper {
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 9.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 1.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: 100%;
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full items-center;
+            .itemcontainer {
+              width: 5.5rem;
+              @apply flex justify-center items-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-2 font-inter font-semibold justify-center text-base text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 2rem;
+          @apply flex h-full items-center ml-2;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-8 w-8 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  // ********************* For tv scroll bar ***********************
+  .tvscrollwrapper {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 16.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 2.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: calc(#{100%} - #{4rem + 4rem});
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full;
+            .itemcontainer {
+              width: 10.875rem;
+              @apply flex justify-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-3 font-pops font-semibold justify-center text-lg text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 9rem;
+          @apply flex h-full items-center mx-4;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-10 w-10 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+
+  .tvsmallwrapper {
+    @apply flex justify-center;
+    .scrollfourcontainer {
+      height: 9.6875rem;
+      @apply flex w-full flex-col;
+      .scrollfourtopcontainer {
+        height: 1.375rem;
+        padding: 0 0.8rem;
+        @apply flex w-full justify-between items-center;
+        .scrollfourleftcontainer {
+          @apply flex;
+          .scrollfourheading {
+            @apply flex font-pops text-4xl font-semibold text-secondary;
+          }
+        }
+        .scrollfourrightcontainer {
+          @apply flex;
+          .scrollfourlink {
+            @apply hidden;
+          }
+        }
+      }
+      .scrollfourbottomcontainer {
+        @apply flex w-full h-full  justify-between;
+        .scrollfourbottommidcontainer {
+          width: 100%;
+          @apply flex h-full;
+          .scrollwrapper {
+            @apply flex w-full h-full items-center;
+            .itemcontainer {
+              width: 5.5rem;
+              @apply flex justify-center items-center  h-full  flex-col cursor-pointer;
+              .names {
+                .nametext {
+                  @apply flex pt-2 font-inter font-semibold justify-center text-base text-secondary;
+                }
+              }
+            }
+          }
+        }
+        .scrollfourbottomleftcontainer,
+        .scrollfourbottomrightcontainer {
+          width: 2rem;
+          @apply flex h-full items-center ml-2;
+          .scrollfourbottomcontainerbtn {
+            @apply flex h-8 w-8 rounded-full cursor-pointer;
+          }
+        }
+        .scrollfourbottomleftcontainer {
+          @apply justify-end;
+        }
+      }
+    }
+  }
+}

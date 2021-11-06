@@ -1,0 +1,31 @@
+.zoomButton{
+    @apply flex flex-col z-30 bg-white shadow-xl cursor-pointer h-20 w-10 justify-between border border-bar text-secondary absolute rounded-full right-5 top-5 p-1;
+  }
+
+  .zoomButtonBorder{
+    @apply border-b w-8 border-bar;
+  }
+  
+  .zoomButtonIcon{
+    @apply text-secondary rounded-full w-8 h-8 p-2 hover:bg-gray-100;
+  }
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 990px){
+
+}
+
+@media only screen and (min-width: 1030px) {
+
+}
+
+@media only screen and (min-width: 1360px){
+    
+}

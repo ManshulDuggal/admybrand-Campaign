@@ -1,0 +1,19 @@
+.wrapper{
+    @apply mb-10 -mt-20 z-30;
+    .card{
+        @apply rounded-full w-full p-2 border bg-white shadow-xl  flex space-x-1 justify-center items-center relative;
+        button{
+            @apply flex justify-center items-center hover:transform hover:scale-125 transition-all;
+        }
+
+    }
+    .reactionCaption{
+        @apply text-[0.6rem] rounded-full p-1 text-white bg-primary-pink absolute -top-6 hidden font-pops font-semibold;
+    }
+}
+.reactionContainer{
+    @apply flex flex-col;
+}
+.reactionContainer:hover .reactionCaption{
+    @apply block transition-all;
+}

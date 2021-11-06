@@ -1,0 +1,32 @@
+.pagenoContainer{
+    @apply font-inter flex justify-center items-center text-grey my-4 w-96 text-sm ml-1 xl:ml-44 lg:ml-24 md:ml-12 sm:ml-4;
+  }
+  .pagenoLeft{
+    @apply font-inter text-grey w-8 h-8 p-2 mx-1 cursor-pointer hover:bg-gray-100 hover:text-secondary rounded-full;
+  }
+  .pagenoElements{
+    @apply flex justify-center items-center text-grey font-normal font-inter cursor-pointer text-lg rounded-full p-2 w-10 h-10 mx-2 hover:bg-gray-100 hover:text-secondary;
+  }
+  .pagenoSelected{
+    @apply flex justify-center items-center text-secondary bg-gray-100 font-normal font-inter cursor-pointer text-lg rounded-full p-2 w-10 h-10 mx-2 hover:bg-gray-100 hover:text-secondary;
+  }
+
+// @media only screen and (max-width: 767px){
+
+// }
+
+// @media only screen and (min-width: 768px) {
+
+// }
+
+// @media only screen and (min-width: 990px){
+
+// }
+
+// @media only screen and (min-width: 1030px) {
+
+// }
+
+// @media only screen and (min-width: 1360px){
+    
+// }

@@ -1,0 +1,11 @@
+.hiddenModal {
+    @apply hidden;
+}
+.displayModal {
+    @apply flex z-50 fixed justify-center items-center bg-black bg-opacity-20 inset-0 bottom-0;
+}
+.card {
+    width: 52.188rem;
+    height: 37.25rem;
+    @apply bg-white flex flex-col rounded-xl border-lightblue;
+}

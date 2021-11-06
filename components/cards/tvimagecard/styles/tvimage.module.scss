@@ -1,0 +1,35 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .tvimagecardwrapper {
+    width: 6.6rem;
+    height: 8rem;
+    @apply flex bg-yellow-700 rounded-2xl;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .tvimagecardwrapper {
+    width: 10.5rem;
+    height: 12.8rem;
+    @apply flex bg-yellow-700 rounded-2xl;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .tvimagecardwrapper {
+    width: 10.5rem;
+    height: 12.8rem;
+    @apply flex bg-yellow-700 rounded-2xl;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .tvimagecardwrapper {
+    width: 10.5rem;
+    height: 12.8rem;
+    @apply flex bg-yellow-700 rounded-2xl;
+  }
+}

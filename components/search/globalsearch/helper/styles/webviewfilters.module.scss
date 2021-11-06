@@ -1,0 +1,55 @@
+@media only screen and (min-width: 600px) {
+  .container {
+    ::-webkit-scrollbar {
+      width: 0.313rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: whitesmoke;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: gray;
+      border-radius: 1.563rem;
+    }
+    width: 42rem;
+    @apply flex flex-row justify-between items-center place-content-center xl:mt-24 lg:mt-14 md:mt-4 sm:mt-2 mb-4;
+}
+
+.filter{
+    @apply xl:ml-16 lg:ml-10 md:ml-6;
+}
+
+  .filterLeft {
+    @apply ml-4;
+  }
+
+  .noFilter {
+    @apply hidden;
+  }
+
+.menu{
+    @apply flex flex-row mr-1 justify-center items-center text-sm border-2 cursor-pointer h-10 p-2 border-bar rounded-full text-text hover:border-gray-300;
+}
+.menutitle{
+    @apply flex pl-1 pb-1 text-text items-center justify-center;
+}
+.submenuContainer{
+    @apply  rounded-xl z-50 overflow-y-auto fixed text-base bg-white w-40 font-inter shadow-xl font-normal text-text  h-auto max-h-48;
+}
+.submenutitle{
+    @apply m-2 px-3 py-1 mb-1 cursor-pointer rounded-full font-inter text-sm text-text hover:bg-primary-lightpink;
+  }
+
+.sortbuttonContainer{
+    @apply flex flex-row text-text ml-5 rounded-full items-center ;
+}
+.sorttitle{
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    @apply ml-1 font-inter text-text font-medium;
+    }
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    @apply hidden;
+  }
+}

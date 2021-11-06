@@ -1,0 +1,143 @@
+.bulletclass {
+  @apply bg-gray-300 opacity-100;
+}
+.bulletactive {
+  @apply bg-primary-pink opacity-100;
+}
+
+.imagecontainermain {
+  width: 100vw;
+}
+
+.btnviewleft {
+  -webkit-tap-highlight-color: transparent;
+  width: 2.9375rem;
+  left: 3rem;
+  @apply flex absolute z-20  self-center items-center rounded-md justify-center h-28  bg-white hover:bg-gray-300 cursor-pointer;
+}
+.btnviewright {
+  -webkit-tap-highlight-color: transparent;
+  width: 2.9375rem;
+  right: 3rem;
+  @apply flex absolute z-20  h-28 items-center  self-center justify-center bg-white hover:bg-gray-300 cursor-pointer rounded-md;
+}
+
+.leftbtn {
+  transform: rotate(0deg);
+  -webkit-tap-highlight-color: transparent;
+  @apply flex justify-center items-center;
+}
+.rightbtn {
+  transform: rotate(180deg);
+  -webkit-tap-highlight-color: transparent;
+  @apply flex justify-center items-center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bulletclass {
+    @apply relative -bottom-2 w-1 h-1;
+  }
+  .btnviewright,
+  .btnviewleft {
+    @apply hidden;
+  }
+
+  .imagecontainermain {
+    height: 15vh;
+  }
+  .scrollfivewrapper {
+    height: auto;
+    margin-top: 3.5rem;
+    @apply flex w-full ;
+    .scrollfivetopcontainer {
+      @apply flex w-full h-auto;
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bulletclass {
+    @apply relative -bottom-2 w-1 h-1;
+  }
+  .imagecontainermain {
+    height: 40vh;
+  }
+  .scrollfivewrapper {
+    margin-top: 3.5rem;
+    padding: 0 4rem;
+    @apply flex w-full ;
+    .scrollfivetopcontainer {
+      padding: 0 3rem;
+      @apply flex w-full h-auto relative;
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {
+  .bulletclass {
+    @apply relative bottom-0 w-2 h-2;
+  }
+  .imagecontainermain {
+    height: 40vh;
+  }
+  .btnviewright,
+  .btnviewleft {
+    width: 1.9375rem;
+    @apply flex h-20;
+  }
+  .scrollfivewrapper {
+    margin-top: 8.75rem;
+    padding: 0 4rem;
+
+    @apply flex w-full ;
+    .scrollfivetopcontainer {
+      @apply flex w-full h-auto;
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .imagecontainermain {
+    height: 40vh;
+  }
+  .scrollfivewrapper {
+    margin-top: 8.75rem;
+    @apply flex w-full ;
+    .scrollfivetopcontainer {
+      @apply flex w-full h-auto;
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .imagecontainermain {
+    height: 45vh;
+  }
+  .scrollfivewrapper {
+    margin-top: 8.75rem;
+    @apply flex w-screen ;
+    .scrollfivetopcontainer {
+      @apply flex w-full h-auto;
+      .itemcontainer {
+        @apply flex w-full h-auto;
+      }
+    }
+  }
+}

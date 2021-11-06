@@ -1,0 +1,73 @@
+.legendAccordion {
+  background-color: white;
+  position: absolute;
+  bottom: 100%;
+  left: 17%;
+  padding-right: 5px;
+  margin-bottom: 8px;
+  @apply rounded-3xl;
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    left: -100px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply rounded-3xl;
+    margin: 10px;
+    border: 1px solid #839fc0;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-blue-900 rounded-3xl;
+    border-right: none;
+    border-left: none;
+  }
+  min-width: 15rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.legendAccordionLabel {
+  @apply border-b-2 border-gray-200 rounded-3xl;
+  width: 100%;
+  top: 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  padding: 3px;
+  .arrowContainer {
+    display: inline-block;
+  }
+  .close {
+    @apply bg-primary-gray rounded-full cursor-pointer h-8 w-8 text-white p-2 ml-1 z-40;
+    transform: rotate(45deg);
+    transition: transform 0.8s linear;
+  }
+  &.active {
+    .close {
+      transition: transform 0.8s linear;
+      transform: rotate(0);
+    }
+  }
+}
+.legendAccordionContent {
+  text-align: left;
+  max-height: 0;
+
+  padding: 0 10px;
+  transition: max-height 0.8s ease-in-out;
+  overflow: hidden;
+  .options {
+    label {
+      @apply ml-2;
+    }
+  }
+  .subOptions {
+    @apply ml-6;
+  }
+  &.active {
+    max-height: 20rem;
+    transition: max-height 0.8s ease-in-out;
+    overflow-y: scroll;
+  }
+}

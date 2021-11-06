@@ -1,0 +1,27 @@
+.maincontainer {
+  @apply flex pt-5 px-4 h-screen flex-col pointer-events-auto  w-screen bg-white fixed overflow-y-scroll;
+  .header {
+    @apply flex justify-between items-center h-7 w-full;
+    .mobileclose {
+      @apply hover:opacity-50;
+    }
+  }
+  .menubody {
+    @apply flex w-full h-full flex-col divide-y;
+    .logincontainer {
+      @apply flex pt-6 w-full justify-between;
+      .loginbtn {
+        @apply flex border w-full h-10 hover:opacity-70 justify-center mx-2 rounded-full items-center border-gray-500;
+        .logtext {
+          @apply flex font-pops font-medium text-base text-text;
+        }
+      }
+      .loginbtn:nth-child(2) {
+        @apply bg-primary-pink border-0;
+        .logtext {
+          @apply text-white;
+        }
+      }
+    }
+  }
+}

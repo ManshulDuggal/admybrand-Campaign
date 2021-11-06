@@ -1,0 +1,6 @@
+.postContent{
+    @apply flex flex-col space-y-2;
+    .postImgPlaceholder{
+        @apply w-full rounded-md bg-gray-300 h-72;
+    }
+}

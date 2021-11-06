@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="131" viewBox="0 0 199 131">
+  <g id="Digiad" transform="translate(-233 -305)">
+    <rect id="Digiad-2" data-name="Digiad" width="199" height="131" rx="20" transform="translate(233 305)" fill="#9fcc3a"/>
+    <g id="Digiad_1" transform="translate(294.647 333.219)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="Path_103" data-name="Path 103" d="M9.768,135.375V80.091H0V144.1H64.013v-8.729Z" transform="translate(0 -68.542)" fill="#fff"/>
+        <path id="Path_104" data-name="Path 104" d="M255.594,131.179l7.684,4.641.158-.1.158.1,7.686-4.641-7.844-4.737Z" transform="translate(-218.736 -108.209)" fill="#fff"/>
+        <path id="Path_105" data-name="Path 105" d="M263.435,252.533l-.158-.1-7.684,4.641,7.842,4.739,7.844-4.739-7.686-4.641Z" transform="translate(-218.736 -216.035)" fill="#fff"/>
+        <path id="Path_106" data-name="Path 106" d="M88.018,0V64.013h64.013V0Zm47.257,18.593v8.754h0v.087l-.079-.046L127.506,32l7.69,4.614.079-.05V45.5l-.079-.048-15.172,9.1-15.172-9.1-.079.048v-8.92l.079.05,7.69-4.614-7.69-4.61-.079.046v-.094h0V18.5l.079.05,15.172-9.1,15.172,9.1.079-.05Z" transform="translate(-75.326)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

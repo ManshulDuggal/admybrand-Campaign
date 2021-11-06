@@ -1,0 +1,35 @@
+$containerheight: 2.6874rem;
+
+.outermainwrapper {
+  height: $containerheight;
+  @apply hidden md:flex  mx-auto w-auto;
+}
+.outermainwrappermobile {
+  height: $containerheight;
+  @apply flex md:hidden  mx-auto w-auto;
+}
+
+.ul {
+  height: $containerheight;
+  @apply flex w-auto;
+}
+
+.liactive {
+  -webkit-tap-highlight-color: transparent;
+  @apply flex w-44 justify-center  text-primary cursor-pointer  font-pops text-sm md:text-base  font-semibold hover:text-primary select-none;
+}
+.li {
+  -webkit-tap-highlight-color: transparent;
+  @apply flex w-44 justify-center  text-secondary cursor-pointer  font-pops text-sm md:text-base  font-semibold hover:text-primary select-none;
+}
+
+.more {
+  height: $containerheight;
+  @apply hidden md:flex w-48;
+}
+
+.underline {
+  width: 2.8125rem;
+  height: 0.1875rem;
+  @apply flex bg-primary-pink  rounded-full mt-0.5 lg:mt-1.5;
+}

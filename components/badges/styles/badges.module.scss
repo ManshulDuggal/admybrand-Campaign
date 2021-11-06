@@ -1,0 +1,11 @@
+.defaultBadge {
+  @apply text-grey border border-lightblue font-normal py-0.5 px-1.5  rounded mr-3;
+}
+
+.promotionBadge {
+  @apply text-secondary bg-white absolute top-4 left-0 p-1.5 pr-4 text-sm rounded-r-2xl inline-block;
+}
+
+.successBadge{
+    @apply text-lightgreen text-xs float-right border border-lightgreen p-1 rounded pl-2 pr-2 font-normal;
+}

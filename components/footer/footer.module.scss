@@ -1,0 +1,41 @@
+.gridcontainer {
+  @apply grid lg:grid-cols-8 md:grid-cols-6 grid-cols-2 gap-8 w-11/12 py-8;
+}
+.maincontainer {
+  @apply flex flex-col justify-center items-center;
+}
+.topcontainer {
+  @apply flex justify-between  flex-col  lg:flex-row px-4 md:px-8 py-4 md:py-2 lg:px-12 w-full ;
+}
+.payment {
+  @apply w-12  h-8 border text-center border-lightblue bg-primary-placeholder flex justify-center items-center;
+}
+.paymenttext {
+  font-size: 0.575rem;
+  @apply font-inter font-semibold text-secondary w-12 h-8 text-center border border-lightblue bg-primary-placeholder flex justify-center items-center;
+}
+.social {
+  @apply bg-primary-placeholder rounded-full h-8 w-8 flex items-center justify-center flex-wrap hover:bg-gray-200;
+}
+.bottom {
+  @apply flex justify-between border-t border-bar w-11/12 py-1 items-center flex-col lg:flex-row;
+}
+.bottomtext {
+  @apply text-sm text-secondary hover:underline  border-secondary ml-1;
+}
+.bottomtext2 {
+  @apply text-sm text-secondary hover:underline border-secondary ml-4;
+}
+.card {
+  @apply w-12 h-8 border bg-extra-blue flex justify-center items-center overflow-hidden;
+}
+.button {
+  font-size: 0.65rem;
+  @apply font-pops uppercase  bg-primary-placeholder flex text-secondary border hover:bg-gray-200 font-semibold border-lightblue rounded-full py-1 px-2 cursor-pointer items-center justify-center space-x-1;
+}
+.coin {
+  @apply w-12  h-8 border bg-extra-purple flex justify-center items-center;
+}
+.alternativePayment{
+  @apply hidden lg:flex ; 
+}

@@ -1,0 +1,6 @@
+.columnLayoutSection{
+    @apply min-h-screen py-4 sm:py-8   bg-white;
+    .columnLayoutContainer{
+      @apply mx-auto container flex flex-col px-4 lg:px-24 ;
+    }
+  }

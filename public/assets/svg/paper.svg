@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="131" viewBox="0 0 199 131">
+  <g id="Paper" transform="translate(-701 -146)">
+    <rect id="Rectangle_61" data-name="Rectangle 61" width="199" height="131" rx="20" transform="translate(701 146)" fill="#009846"/>
+    <g id="_267469584624" transform="translate(739.18 167.614)">
+      <path id="Path_9" data-name="Path 9" d="M84.773,11,18,17.26,25.3,66.3s1.043,6.26,4.173,5.217c2.087,0,5.217-1.043,5.217-4.173V19.347h67.816v40.69s-1.043,5.217-6.26,6.26-63.643,8.347-63.643,8.347A13.962,13.962,0,0,1,27.39,73.6H25.3s4.173,4.173,6.26,4.173c1.043,0,40.69-5.217,40.69-5.217l27.126-4.173S104.6,66.3,104.6,63.166a16.452,16.452,0,0,0,1.043-4.173V16.217H84.773Z" fill="#fefefe" fill-rule="evenodd"/>
+      <path id="Path_10" data-name="Path 10" d="M82.52,24,70,31.3h0v7.3h0l6.26,4.173L70,46.953h0v6.26h0v0L82.52,61.56l12.52-8.347v0h0v-6.26h0L88.78,42.78l6.26-4.173h0V31.3h0ZM76.26,50.083l6.26-4.173h0l6.26,4.173-6.26,4.173Zm6.26-11.477V39.65l6.26-4.173L82.52,31.3l-6.26,4.173,6.26,4.173Z" transform="translate(2.253 0.563)" fill="#fefefe" fill-rule="evenodd"/>
+      <path id="Path_11" data-name="Path 11" d="M40.043,31h24a2.244,2.244,0,0,1,2.087,2.087h0c0,1.043-1.043,1.043-2.087,1.043h-24A1.022,1.022,0,0,1,39,33.087h0A3.643,3.643,0,0,1,40.043,31Z" transform="translate(0.91 0.866)" fill="#fefefe" fill-rule="evenodd"/>
+      <path id="Path_12" data-name="Path 12" d="M40.043,37h24a2.244,2.244,0,0,1,2.087,2.087h0a2.244,2.244,0,0,1-2.087,2.087h-24A3.643,3.643,0,0,1,39,39.087h0A3.643,3.643,0,0,1,40.043,37Z" transform="translate(0.91 1.126)" fill="#fefefe" fill-rule="evenodd"/>
+      <path id="Path_13" data-name="Path 13" d="M40.043,44h24c1.043,0,2.087,0,2.087,1.043h0A2.244,2.244,0,0,1,64.04,47.13h-24A3.643,3.643,0,0,1,39,45.043h0A1.022,1.022,0,0,1,40.043,44Z" transform="translate(0.91 1.43)" fill="#fefefe" fill-rule="evenodd"/>
+      <path id="Path_14" data-name="Path 14" d="M40.043,49h24a2.244,2.244,0,0,1,2.087,2.087h0a2.244,2.244,0,0,1-2.087,2.087h-24A3.643,3.643,0,0,1,39,51.087h0A3.643,3.643,0,0,1,40.043,49Z" transform="translate(0.91 1.646)" fill="#fefefe" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+.mainWrapper {
+  @apply flex flex-col space-y-4;
+  .postInputContainer {
+    @apply flex space-x-2;
+    .imgPlaceholder{
+        @apply w-12 h-12 rounded-full bg-gray-300;
+    }
+    
+  }
+  .actionBtnContainer{
+      @apply flex lg:space-x-20  justify-between lg:justify-start items-center;
+  }
+}
+
+

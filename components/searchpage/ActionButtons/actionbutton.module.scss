@@ -1,0 +1,120 @@
+.adsCardActionButton {
+    @apply flex items-center text-xl font-semibold text-gray-500;
+  }
+
+  .actionButtonContainer{
+    @apply flex items-center -mt-3;
+  }
+  
+  .noAdsCard {
+    @apply hidden m-0 p-0;
+  }
+  
+  .actionButtonDot {
+    @apply inline-block cursor-pointer h-6 w-6 text-grey pl-3 float-right;
+  }
+  
+  .actionButtonHeart {
+    @apply inline-block cursor-pointer float-right;
+  }
+  
+  .adssmallmenu {
+    box-shadow: rgb(0 0 0 / 15%) 0px 16px 32px, rgb(0 0 0 / 10%) 0px 3px 8px !important;
+    top: 3vh;
+    @apply absolute w-auto px-4 right-0 z-40;
+  }
+
+
+@media only screen and (max-width: 767px){
+    .adsCardActionButton {
+    @apply flex items-center text-xl font-semibold text-gray-500;
+    }
+
+    .noAdsCard {
+    @apply hidden m-0 p-0;
+    }
+
+    .actionButtonDot {
+    @apply inline-block cursor-pointer h-6 w-6 text-grey pl-2.5 float-right;
+    }
+
+    .actionButtonHeart {
+    @apply inline-block cursor-pointer float-right;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .adsCardActionButton {
+    @apply flex items-center text-xl font-semibold text-gray-500;
+    }
+
+    .noAdsCard {
+    @apply hidden m-0 p-0;
+    }
+
+    .actionButtonDot {
+    @apply inline-block cursor-pointer h-6 w-6 text-grey pl-2.5 float-right;
+    }
+
+    .actionButtonHeart {
+    @apply inline-block cursor-pointer float-right;
+    }
+}
+
+@media only screen and (min-width: 990px){
+    .adsCardActionButton {
+    @apply flex items-center text-xl font-semibold text-gray-500;
+    }
+
+    .noAdsCard {
+    @apply hidden m-0 p-0;
+    }
+
+    .actionButtonDot {
+    @apply inline-block cursor-pointer h-6 w-6 text-grey pl-2.5 float-right;
+    }
+
+    .actionButtonHeart {
+    @apply inline-block cursor-pointer float-right;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    .adsCardActionButton {
+    @apply flex items-center text-xl font-semibold text-gray-500;
+    }
+
+    .noAdsCard {
+    @apply hidden m-0 p-0;
+    }
+
+    .actionButtonDot {
+    @apply inline-block cursor-pointer h-6 w-6 text-grey pl-2.5 float-right;
+    }
+
+    .actionButtonHeart {
+    @apply inline-block cursor-pointer float-right;
+    }
+}
+
+
+@media only screen and (min-width: 1360px){
+    .adsCardActionButton {
+    @apply flex items-center text-xl font-semibold text-gray-500;
+    }
+
+    .noAdsCard {
+    @apply hidden m-0 p-0;
+    }
+
+    .actionButtonDot {
+    @apply inline-block cursor-pointer h-6 w-6 text-grey pl-3 float-right;
+    }
+
+    .actionButtonHeart {
+    @apply inline-block cursor-pointer float-right;
+    }
+}
+
+
+

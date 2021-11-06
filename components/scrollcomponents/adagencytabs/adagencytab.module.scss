@@ -1,0 +1,88 @@
+.main {
+  @apply lg:flex  flex justify-center items-end bg-white w-full   pt-8 lg:px-10 px-6;
+  .innercontainer {
+    height: 6.8125rem;
+    @apply flex w-full  justify-center items-center overflow-x-scroll lg:overflow-visible  h-full;
+   
+    .leftcontainer {
+     
+      @apply md:flex grid grid-cols-2 h-full; 
+      
+      .leftitem {
+        margin-right: 2.125rem;
+        @apply flex flex-col justify-start items-center lg:px-2 px-1 flex-none relative;
+        h3.active {
+          @apply flex text-sm lg:text-lg font-pops font-medium lg:text-right text-primary;
+        }
+        h3.active:hover {
+          @apply cursor-pointer;
+        }
+        h3.deactive {
+          @apply flex text-sm lg:text-lg font-pops font-medium lg:text-right text-secondary;
+        }
+        h3.deactive:hover {
+          @apply cursor-pointer;
+        }
+        .underline {
+          width: 2.8125rem;
+          height: 0.1875rem;
+          position: absolute;
+          top: 6rem;
+          @apply hidden lg:flex bg-primary-pink rounded-full ;
+        }
+        .underlinesmall {
+          width: 2.8125rem;
+          height: 0.1875rem;          
+          @apply flex bg-primary-pink rounded-full  lg:hidden;
+        }
+      }
+    }
+  }
+  .innercontainer::-webkit-scrollbar {
+    @apply hidden;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    height: 9.9375rem;
+    padding-top: 5.25rem;
+    .innercontainer {
+      height: 2.6875rem;
+      width: inherit;
+      .leftcontainer {
+        .leftitem {
+          margin-right: 2.875rem;
+          .h3.active {
+            margin-top: 0.4375rem;
+          }
+          .h3.deactive {
+            margin-top: 0.4375;
+          }
+          .underline {
+            width: 3.75rem;
+          }
+        }
+      }
+      .leftcontainerfull {
+        .leftitem {
+          margin-right: 2.875rem;
+          .h3.active {
+            margin-top: 0.4375rem;
+          }
+          .h3.deactive {
+            margin-top: 0.4375rem;
+          }
+          .underline {
+            width: 3.75;
+          }
+        }
+      }
+      .rightcontainer {
+        width: 5.375rem;
+        margin-left: 2.8125rem;
+        margin-bottom: 0.1875rem;
+      }
+    }
+  }
+}

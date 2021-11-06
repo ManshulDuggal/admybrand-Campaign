@@ -1,0 +1,14 @@
+.divwrapper {
+  @apply flex h-auto w-full flex-col;
+  .textwrapper {
+    padding: 0.9375rem 0;
+    @apply flex justify-between w-full;
+    .innertext {
+      @apply flex font-pops font-medium text-sm text-secondary hover:text-primary;
+    }
+    .imagecontainer {
+      transform: rotate(-90deg);
+      @apply flex h-6 w-6 justify-center items-center;
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.tvcardStyle {
+  @apply ml-4 xl:mr-32 lg:mr-28 mt-12;
+}
+
+.tvcardContainer {
+  height: 44rem;
+  width: 28rem;
+  @apply flex flex-col border-2 border-gray-200 rounded-2xl p-6;
+}
+
+.tvcardHeading {
+  @apply font-pops text-base text-secondary font-semibold mb-6;
+}
+
+.tvlinksimg {
+  width: 9.875rem;
+  @apply flex h-full cursor-pointer justify-center items-center px-4 md:px-0;
+}
+
+.tvcardReview {
+  @apply text-primary flex font-inter text-base items-center justify-center px-4 py-1 h-10 cursor-pointer border border-primary rounded-lg hover:bg-primary-pink hover:text-white;
+}
+
+.tvcardLikeRow {
+  @apply flex justify-between mb-8;
+}
+
+.tvcardLike {
+  @apply flex;
+}
+
+.tvcardLikeBtn {
+  @apply w-12 h-12 p-2 ml-3 border border-lightblue text-text rounded-full cursor-pointer;
+}
+
+.tvcardLikeBtnFill {
+  @apply w-10 h-10 p-2 ml-2 border border-lightblue rounded-full cursor-pointer;
+}
+
+.tvcardLikeText {
+  @apply flex flex-col;
+}
+
+.tvcardLikeTextHeading {
+  @apply text-base text-text font-semibold;
+}
+
+.tvcardLikeTextPara {
+  @apply text-sm text-grey;
+}
+
+.tvcardBookRow {
+  @apply flex justify-between border-b border-t border-lightblue mb-8;
+}
+.tvcardBookElement {
+  @apply flex py-3 px-2 flex-col justify-center items-center;
+}
+.tvcardBookIcon {
+  @apply flex h-10 w-10 p-2;
+}
+
+.tvcardBookText {
+  @apply text-blue-500 font-medium font-pops text-sm cursor-pointer hover:underline;
+}
+
+.tvcardBookBorder {
+  @apply py-4 my-3 border-r border-lightblue;
+}
+
+.tvcardTools {
+  @apply flex flex-col mb-8 border-b pb-8 border-lightblue;
+}
+
+.tvcardToolsHeading {
+  @apply flex text-base font-pops text-secondary font-semibold mb-3;
+}
+
+.tvcardToolsGrid {
+  @apply flex justify-between;
+}
+
+.tvcardToolsElements {
+  @apply flex flex-col justify-center items-center cursor-pointer;
+}
+
+.tvcardToolsElementsIcons {
+  @apply w-12 h-12 p-2 text-secondary;
+}
+
+.tvcardToolsElementsText {
+  @apply font-inter text-text text-sm;
+}
+
+.tvcardCards {
+  @apply flex flex-col;
+}
+
+.tvcardCardsHeading {
+  @apply font-pops font-semibold text-base;
+}
+
+.tvcardCardsGrid {
+  @apply pr-8;
+}

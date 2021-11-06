@@ -1,0 +1,9 @@
+.wrapper{
+    @apply flex flex-col space-y-2;
+    .headerWrapper{
+        @apply flex justify-between;
+        .headingWrapper{
+            @apply flex items-center space-x-1;
+        }
+    }
+}

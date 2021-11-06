@@ -1,0 +1,30 @@
+.downloadappmain {
+  @apply bg-white flex w-full h-auto  pt-1 justify-center flex-col mt-8 md:mt-0 px-4 md:px-0;
+  .heading {
+    margin-bottom: 0.4875rem;
+    @apply md:px-1 flex  md:h-auto md:w-auto justify-center items-center md:mb-5;
+    h3 {
+      @apply flex text-sm md:text-base  text-secondary md:text-center font-pops font-semibold;
+    }
+  }
+  .downloadlinks {
+    @apply flex  h-12   w-full justify-center items-center  space-x-2;
+    .linksimg {
+      width: 9.875rem;
+      @apply flex   h-full  cursor-pointer justify-center items-center;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .downloadappmain {
+    padding-top: 1.5rem;
+    text-align: center;
+    .downloadlinks {
+      height: 2.125rem;
+      .linksimg {
+        width: 8.3125rem;
+      }
+    }
+  }
+}

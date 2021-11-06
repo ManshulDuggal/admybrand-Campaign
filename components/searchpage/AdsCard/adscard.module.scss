@@ -1,0 +1,553 @@
+.adsCardPosition {
+    @apply flex flex-col flex-grow mt-8;
+}
+
+.imageContainer{
+  @apply flex-none relative;
+}
+
+.headingContainer{
+  @apply flex justify-between w-full;
+}
+
+.adsCardPositionTv {
+@apply flex flex-col flex-grow;
+}
+
+.heart {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: -18px;
+    top: 0px;
+    background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    cursor: pointer;
+    transition: background-position 1s steps(28);
+    transition-duration: 0s;
+  
+    &.isActive {
+      transition-duration: 1s;
+      background-position: -1680px 0;
+    }
+  }
+
+.adsCard {
+width: 35%;
+height: 13rem;
+@apply relative flex border-b border-bar mt-4 mb-4 lg:ml-32 sm:ml-2 font-inter lg:mr-2;;
+}
+
+.adsCardRight {
+@apply flex flex-col lg:ml-4 md:ml-4 sm:ml-2;
+}
+
+.adsCardImage {
+height: 10.7rem;
+width: 21rem;
+@apply relative inset-0 object-cover rounded-lg;
+}
+
+.cardImageHeight {
+height: 170px;
+}
+
+.adsCardLeft {
+width: 35%;
+height: 13rem;
+@apply relative flex border-b border-bar mt-4 mb-4 lg:ml-11 sm:ml-2 font-inter lg:mr-2;
+}
+.adsCardHeadingClass {
+@apply relative flex flex-wrap justify-between;
+}
+.adsCardHeading {
+@apply flex-auto lg:text-lg sm:text-base font-semibold text-secondary lg:w-10/12 sm:w-8/12;
+}
+
+.adsCardLocation {
+@apply flex items-center w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+}
+
+.adsCardStrike {
+@apply font-normal text-sm line-through text-grey ml-4 mr-3;
+}
+.adsCardPrice {
+@apply w-full flex-none text-sm font-medium text-gray-500 mt-2 mb-3;
+}
+.adsCardDefaultBadge {
+@apply w-full flex-none text-sm  font-medium text-gray-500 mt-0.5 mb-1;
+}
+
+.adsCardButtonDiv {
+@apply flex-auto flex space-x-3;
+}
+.adsCardPriceTag {
+@apply flex items-center text-text font-semibold text-lg;
+}
+
+.adsCardDim {
+@apply text-grey font-normal;
+}
+.adsCardAddress {
+@apply text-text font-normal mr-2;
+}
+
+.adsCardButtonClass {
+@apply flex space-x-3 text-xs font-medium;
+}
+
+.adsCardCategory {
+@apply text-secondary font-normal ml-2;
+}
+
+.adsCardActionButton {
+@apply flex items-center text-xl font-semibold text-gray-500;
+}
+
+.noAdsCard {
+@apply hidden m-0 p-0;
+}
+
+
+@media only screen and (max-width: 767px){
+    .adsCard {
+        @apply flex flex-col border-b w-screen h-auto justify-center border-bar mt-1 mb-1 mx-auto px-2 font-inter p-3;
+      }
+    
+      .adsCardImage {
+        @apply h-44 w-screen;
+      }
+    
+      .adsCardLeft {
+        @apply flex flex-col border-b w-screen h-auto justify-center border-bar mt-1 mb-1 mx-auto px-2 font-inter p-3;
+      }
+    
+      .adsCardRight {
+        @apply flex flex-col mt-4;
+      }
+    
+      .adsCardHeadingClass {
+        @apply relative flex flex-wrap justify-between;
+      }
+      .adsCardHeading {
+        @apply flex-auto lg:text-lg sm:text-base font-semibold text-secondary;
+      }
+    
+      .adsCardLocation {
+        @apply w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+      }
+    
+      .adsCardStrike {
+        @apply font-normal text-sm line-through text-grey;
+      }
+      .adsCardPrice {
+        @apply w-full flex text-sm font-medium text-gray-500 mt-2 mb-3;
+      }
+      .adsCardDefaultBadge {
+        @apply w-full flex-none text-sm  font-medium text-gray-500 mt-0.5 mb-1;
+      }
+    
+      .adsCardButtonDiv {
+        @apply flex-auto flex space-x-3;
+      }
+      .adsCardPriceTag {
+        @apply flex items-center justify-between text-text font-semibold text-lg;
+      }
+      .adsCardDim {
+        @apply text-grey font-normal;
+      }
+      .adsCardAddress {
+        @apply text-text font-normal mr-2;
+      }
+    
+      .adsCardButtonClass {
+        @apply flex space-x-3 text-xs font-medium;
+      }
+    
+      .adsCardCategory {
+        @apply text-secondary font-normal ml-2;
+      }
+    
+      .adsCardActionButton {
+        @apply flex items-center text-xl font-semibold text-gray-500;
+      }
+    
+      .noAdsCard {
+        @apply hidden m-0 p-0;
+      }
+      .adsCardHeadingClass {
+        @apply relative flex flex-wrap justify-between;
+      }
+      .adsCardHeading {
+        @apply flex-auto lg:text-lg sm:text-base font-semibold text-secondary lg:w-10/12 sm:w-8/12;
+      }
+    
+      .adsCardLocation {
+        @apply w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+      }
+}
+
+@media only screen and (min-width: 768px) {
+    .adsCard {
+        width: 46rem;
+        @apply flex border-b h-auto justify-center border-bar mt-1 mb-1 mx-auto px-4 font-inter p-3;
+      }
+    
+      .adsCardImage {
+        @apply h-40 w-80;
+      }
+    
+      .adsCardLeft {
+        width: 46rem;
+        @apply flex border-b h-auto justify-center border-bar mt-1 mb-1 mx-auto px-4 font-inter p-3;
+      }
+    
+      .adsCardRight {
+        @apply flex flex-col ml-4;
+      }
+      .adsCardHeadingClass {
+        @apply relative flex flex-wrap justify-between;
+      }
+      .adsCardHeading {
+        @apply flex-auto lg:text-lg sm:text-base font-semibold text-secondary;
+      }
+    
+      .adsCardLocation {
+        @apply w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+      }
+    
+      .adsCardStrike {
+        @apply font-normal text-sm line-through text-grey;
+      }
+      .adsCardPrice {
+        @apply w-full flex text-sm font-medium text-gray-500 mt-2 mb-3;
+      }
+      .adsCardDefaultBadge {
+        @apply w-full flex-none text-sm  font-medium text-gray-500 mt-2 mb-1;
+      }
+    
+      .adsCardButtonDiv {
+        @apply flex-auto flex space-x-3;
+      }
+      .adsCardPriceTag {
+        @apply flex items-center justify-between text-text font-semibold text-lg;
+      }
+      .adsCardDim {
+        @apply text-grey font-normal;
+      }
+      .adsCardAddress {
+        @apply text-text font-normal mr-2;
+      }
+    
+      .adsCardButtonClass {
+        @apply flex space-x-3 text-xs font-medium;
+      }
+    
+      .adsCardCategory {
+        @apply text-secondary font-normal ml-2;
+      }
+    
+      .adsCardActionButton {
+        @apply flex items-center text-xl font-semibold text-gray-500;
+      }
+    
+      .noAdsCard {
+        @apply hidden m-0 p-0;
+      }
+      .adsCardStrike {
+        @apply font-normal text-sm line-through text-grey ml-4 mr-3;
+      }
+      .adsCardPrice {
+        @apply w-full flex-none text-sm font-medium text-gray-500 mt-2 mb-3;
+      }
+      .adsCardDefaultBadge {
+        @apply w-full flex-none text-sm  font-medium text-gray-500 mt-2 mb-1;
+      }
+    
+      .adsCardButtonDiv {
+        @apply flex-auto flex space-x-3 w-1/2;
+      }
+      .adsCardPriceTag {
+        @apply flex items-center text-text font-semibold text-lg;
+      }
+}
+
+@media only screen and (min-width: 990px){
+    .adsCard {
+        @apply flex border-b w-full h-auto justify-center border-bar mt-1 mb-1 px-10 mx-auto font-inter p-3;
+      }
+    
+      .adsCardImage {
+        height: 10.5rem;
+        @apply w-96;
+      }
+    
+      .adsCardLeft {
+        @apply flex border-b w-full h-auto justify-center border-bar mt-1 mb-1 px-10 mx-auto font-inter p-3;
+      }
+    
+      .adsCardRight {
+        @apply flex flex-col ml-4;
+      }
+      .adsCardHeadingClass {
+        @apply relative flex flex-wrap justify-between;
+      }
+      .adsCardHeading {
+        @apply flex-auto text-lg font-semibold text-secondary;
+      }
+    
+      .adsCardLocation {
+        @apply w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+      }
+    
+      .adsCardStrike {
+        @apply font-normal text-sm line-through text-grey;
+      }
+      .adsCardPrice {
+        @apply w-full flex text-sm font-medium text-gray-500 mt-2 mb-3;
+      }
+      .adsCardDefaultBadge {
+        @apply w-full flex-none text-sm  font-medium text-gray-500 mt-2 mb-1;
+      }
+    
+      .adsCardButtonDiv {
+        @apply flex;
+      }
+      .adsCardPriceTag {
+        @apply flex items-center justify-between text-text font-semibold text-lg;
+      }
+      .adsCardDim {
+        @apply text-grey font-normal;
+      }
+      .adsCardAddress {
+        @apply text-text font-normal mr-2;
+      }
+    
+      .adsCardButtonClass {
+        @apply flex text-xs font-medium;
+      }
+    
+      .adsCardCategory {
+        @apply text-secondary font-normal ml-2;
+      }
+    
+      .adsCardActionButton {
+        @apply flex items-center text-xl font-semibold text-gray-500;
+      }
+    
+      .noAdsCard {
+        @apply hidden m-0 p-0;
+      }
+      .adsCardDim {
+        @apply text-grey font-normal;
+      }
+      .adsCardAddress {
+        @apply text-text font-normal mr-2;
+      }
+    
+      .adsCardButtonClass {
+        @apply flex space-x-3 text-xs font-medium;
+      }
+}
+
+@media only screen and (min-width: 1030px) {
+    .adsCard {
+        width: 42rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-16 font-inter p-3;
+      }
+    
+      .adsCardRight {
+        @apply flex flex-col lg:ml-4 md:ml-4 sm:ml-2;
+      }
+    
+      .adsCardImage {
+        @apply relative h-36 w-60 inset-0 object-cover rounded-lg;
+      }
+    
+      .cardImageHeight {
+        height: 170px;
+      }
+    
+      .adsCardLeft {
+        width: 42rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-4 font-inter p-3;
+      }
+    
+      .adsCardHeadingClass {
+        @apply relative flex flex-wrap justify-between;
+      }
+      .adsCardHeading {
+        @apply flex-auto text-lg font-semibold text-secondary;
+      }
+    
+      .adsCardLocation {
+        @apply w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+      }
+    
+      .adsCardStrike {
+        @apply font-normal text-sm line-through text-grey;
+      }
+      .adsCardPrice {
+        @apply w-full flex text-sm font-medium text-gray-500 mt-2 mb-3;
+      }
+      .adsCardDefaultBadge {
+        @apply w-full flex-none text-sm  font-medium text-gray-500 mt-2 mb-1;
+      }
+    
+      .adsCardButtonDiv {
+        @apply flex-auto flex space-x-3;
+      }
+      .adsCardPriceTag {
+        @apply flex items-center justify-between text-text font-semibold text-lg;
+      }
+      .adsCardDim {
+        @apply text-grey font-normal;
+      }
+      .adsCardAddress {
+        @apply text-text font-normal mr-2;
+      }
+    
+      .adsCardButtonClass {
+        @apply flex space-x-3 text-xs font-medium;
+      }
+    
+      .adsCardCategory {
+        @apply text-secondary font-normal ml-2;
+      }
+    
+      .adsCardActionButton {
+        @apply flex items-center text-xl font-semibold text-gray-500;
+      }
+    
+      .noAdsCard {
+        @apply hidden m-0 p-0;
+      }
+}
+
+@media only screen and (min-width: 1360px){
+    .adsCardPosition {
+        @apply flex flex-col flex-grow;
+    }
+
+    .adsCard {
+        width: 42rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-16 font-inter p-3;
+      }
+    
+      .adsCardRight {
+        @apply flex flex-col lg:ml-4 md:ml-4 sm:ml-2;
+      }
+    
+      .adsCardImage {
+        @apply relative h-36 w-60 inset-0 object-cover rounded-lg;
+      }
+    
+      .cardImageHeight {
+        height: 170px;
+      }
+    
+      .adsCardLeft {
+        width: 42rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-4 font-inter p-3;
+      }
+      .adsCardHeadingClass {
+        @apply relative flex flex-wrap justify-between;
+      }
+      .adsCardHeading {
+        @apply flex-auto lg:text-lg sm:text-base font-semibold text-secondary lg:w-10/12 sm:w-8/12;
+      }
+    
+      .adsCardLocation {
+        @apply w-full flex-none text-xs font-medium text-gray-500 mt-2 mb-2;
+      }
+    
+      .adsCardStrike {
+        @apply font-normal text-sm line-through text-grey ml-4 mr-3;
+      }
+      .adsCardPrice {
+        @apply w-full flex-none text-sm font-medium text-gray-500 mt-2 mb-3;
+      }
+      .adsCardDefaultBadge {
+        @apply w-full flex-none text-sm  font-medium text-gray-500 mt-2 mb-1;
+      }
+    
+      .adsCardButtonDiv {
+        @apply flex-auto flex space-x-3;
+      }
+      .adsCardPriceTag {
+        @apply flex items-center text-text font-semibold text-lg;
+      }
+    
+      .adsCardDim {
+        @apply text-grey font-normal;
+      }
+      .adsCardAddress {
+        @apply text-text font-normal mr-2;
+      }
+    
+      .adsCardButtonClass {
+        @apply flex space-x-3 text-xs font-medium;
+      }
+    
+      .adsCardCategory {
+        @apply text-secondary font-normal ml-2;
+      }
+    
+      .adsCardActionButton {
+        @apply flex items-center text-xl font-semibold text-gray-500;
+      }
+    
+      .noAdsCard {
+        @apply hidden m-0 p-0;
+      }
+}
+
+@media only screen and (min-width: 1500px){
+    .adsCard{
+        width: 42rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-16 font-inter p-3;
+    }
+    
+    .adsCardRight{
+        @apply flex flex-col lg:ml-4 md:ml-4 sm:ml-2 ;
+    }
+    
+    .adsCardImage{
+        @apply relative h-36 w-60 inset-0 object-cover rounded-lg;
+    }
+    
+    .cardImageHeight{
+        height: 170px;
+    }
+    
+    .adsCardLeft{
+        width: 42rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-4 font-inter p-3;
+    
+    }
+}
+
+@media only screen and (min-width: 1900px){
+    .adsCard {
+        width: 44rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-40 font-inter p-3;
+      }
+    
+      .adsCardRight {
+        @apply flex flex-col ml-8;
+      }
+    
+      .adsCardImage {
+        @apply relative h-40 w-72 inset-0 object-cover rounded-lg;
+      }
+    
+      .cardImageHeight {
+        height: 170px;
+      }
+    
+      .adsCardLeft {
+        width: 44rem;
+        @apply flex border-b h-auto justify-start border-bar mt-1 mb-1 ml-10 font-inter p-3;
+      }
+}

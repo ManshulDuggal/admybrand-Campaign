@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render test test for ad agency credit area 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <h1>
+          Avail Credit
+        </h1>
+        <p>
+          We understand how important is marketing for brands and we faciliate credit for your ad campaigns to help you get more business
+        </p>
+        <div>
+          <div>
+            <div>
+              <div
+                style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+              >
+                <div
+                  style="box-sizing: border-box; display: block; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    role="presentation"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                    style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                  />
+                </div>
+                <noscript />
+                <img
+                  alt="img"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+              </div>
+              <h1>
+                →
+              </h1>
+            </div>
+            <h1>
+              Get Credit from Banks and NBFCs
+            </h1>
+            <p>
+              We have partnered with leading financial Institutions to faciliate working capital loans, simply upload your company documents and avail credit line within 3 to 5 working days.
+            </p>
+          </div>
+          <div>
+            <h1>
+               
+              Get Credit from Banks and NBFCs
+               
+            </h1>
+          </div>
+          <div>
+            <div>
+              <div
+                style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+              >
+                <div
+                  style="box-sizing: border-box; display: block; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    role="presentation"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                    style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                  />
+                </div>
+                <noscript />
+                <img
+                  alt="img"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+              </div>
+              <h1>
+                →
+              </h1>
+            </div>
+            <h1>
+              Get Credit from Agency Partner
+            </h1>
+            <p>
+              We have appointed cash rich agencies as our credit partners, after filling the form our agency partner shall meet you and provide formal or informal credit within a day.
+            </p>
+          </div>
+          <div>
+            <h1>
+               
+              Get Credit from Agency Partner
+               
+            </h1>
+          </div>
+          <div>
+            <div>
+              <div
+                style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+              >
+                <div
+                  style="box-sizing: border-box; display: block; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    role="presentation"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                    style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                  />
+                </div>
+                <noscript />
+                <img
+                  alt="img"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+              </div>
+              <h1>
+                →
+              </h1>
+            </div>
+            <h1>
+              Get credit from Others
+            </h1>
+            <p>
+              We have partnered with leading invoice discounting platforms, AR/AP Financing platforms and SME Credit platforms to provide automated Credit within a few hours.
+            </p>
+          </div>
+          <div>
+            <h1>
+               
+              Get credit from Others
+               
+            </h1>
+          </div>
+          <div>
+            <div>
+              <div
+                style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+              >
+                <div
+                  style="box-sizing: border-box; display: block; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    role="presentation"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                    style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                  />
+                </div>
+                <noscript />
+                <img
+                  alt="img"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+              </div>
+              <h1>
+                →
+              </h1>
+            </div>
+            <h1>
+              Corporate Credit Card & EMI options
+            </h1>
+            <p>
+              We accept all Corporate credit Cards, facilitate corporate EMIs and also helps you book a corporate credit card with which you get instant credit on your ad bookings.
+            </p>
+          </div>
+          <div>
+            <h1>
+               
+              Corporate Credit Card & EMI options
+               
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h1>
+        Avail Credit
+      </h1>
+      <p>
+        We understand how important is marketing for brands and we faciliate credit for your ad campaigns to help you get more business
+      </p>
+      <div>
+        <div>
+          <div>
+            <div
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+            >
+              <div
+                style="box-sizing: border-box; display: block; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                  style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                />
+              </div>
+              <noscript />
+              <img
+                alt="img"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+            </div>
+            <h1>
+              →
+            </h1>
+          </div>
+          <h1>
+            Get Credit from Banks and NBFCs
+          </h1>
+          <p>
+            We have partnered with leading financial Institutions to faciliate working capital loans, simply upload your company documents and avail credit line within 3 to 5 working days.
+          </p>
+        </div>
+        <div>
+          <h1>
+             
+            Get Credit from Banks and NBFCs
+             
+          </h1>
+        </div>
+        <div>
+          <div>
+            <div
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+            >
+              <div
+                style="box-sizing: border-box; display: block; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                  style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                />
+              </div>
+              <noscript />
+              <img
+                alt="img"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+            </div>
+            <h1>
+              →
+            </h1>
+          </div>
+          <h1>
+            Get Credit from Agency Partner
+          </h1>
+          <p>
+            We have appointed cash rich agencies as our credit partners, after filling the form our agency partner shall meet you and provide formal or informal credit within a day.
+          </p>
+        </div>
+        <div>
+          <h1>
+             
+            Get Credit from Agency Partner
+             
+          </h1>
+        </div>
+        <div>
+          <div>
+            <div
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+            >
+              <div
+                style="box-sizing: border-box; display: block; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                  style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                />
+              </div>
+              <noscript />
+              <img
+                alt="img"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+            </div>
+            <h1>
+              →
+            </h1>
+          </div>
+          <h1>
+            Get credit from Others
+          </h1>
+          <p>
+            We have partnered with leading invoice discounting platforms, AR/AP Financing platforms and SME Credit platforms to provide automated Credit within a few hours.
+          </p>
+        </div>
+        <div>
+          <h1>
+             
+            Get credit from Others
+             
+          </h1>
+        </div>
+        <div>
+          <div>
+            <div
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+            >
+              <div
+                style="box-sizing: border-box; display: block; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                  style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                />
+              </div>
+              <noscript />
+              <img
+                alt="img"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+            </div>
+            <h1>
+              →
+            </h1>
+          </div>
+          <h1>
+            Corporate Credit Card & EMI options
+          </h1>
+          <p>
+            We accept all Corporate credit Cards, facilitate corporate EMIs and also helps you book a corporate credit card with which you get instant credit on your ad bookings.
+          </p>
+        </div>
+        <div>
+          <h1>
+             
+            Corporate Credit Card & EMI options
+             
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

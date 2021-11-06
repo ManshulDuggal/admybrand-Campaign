@@ -1,0 +1,53 @@
+.mobileMapSize {
+    height: 100%;
+    width: 100%;
+    @apply absolute bg-white z-40 bottom-0 right-0;
+}
+
+.floatIconStyle{
+  @apply mr-3;
+}
+
+.mapFloatButton {
+    @apply fixed flex z-20 shadow-xl justify-center items-center cursor-pointer w-24 h-8 text-white bg-primary-gray bottom-16 p-1 font-inter text-base rounded-full;
+}
+
+.noMapControl {
+    @apply hidden;
+  }
+
+
+@media only screen and (max-width: 767px){
+    .mapFloatButton {
+        @apply fixed flex z-20 shadow-xl justify-center items-center cursor-pointer w-24 h-8 text-white bg-primary-gray bottom-16 p-1 font-inter text-base rounded-full;
+      }
+}
+
+@media only screen and (min-width: 768px) {
+    .mapFloatButton {
+        @apply fixed flex z-20 shadow-xl justify-center items-center cursor-pointer w-24 h-8 text-white bg-primary-gray bottom-16 p-1 font-inter text-base rounded-full;
+      }
+}
+
+@media only screen and (min-width: 990px){
+    .mapFloatButton {
+        @apply fixed flex z-20 shadow-xl justify-center items-center cursor-pointer w-28 h-10 text-white bg-primary-gray bottom-20 p-1 font-inter text-lg rounded-full;
+      }
+}
+
+@media only screen and (min-width: 1030px) {
+    .mapFloatButton {
+        @apply hidden;
+      }
+}
+
+@media only screen and (min-width: 1360px){
+    .mapFloatButton {
+        @apply hidden;
+      }
+    .mobileMapSize {
+        height: 100%;
+        width: 100%;
+        @apply absolute bg-white z-40 bottom-0 right-0;
+      }
+}

@@ -1,0 +1,26 @@
+.searchbarheader {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 20%,
+      black 60%,
+      transparent
+    );
+    @apply flex w-full pt-8 px-4 flex-col overflow-x-scroll;
+    &::-webkit-scrollbar {
+      @apply hidden;
+    }
+}
+  
+@media (min-width: 768px) {
+    .searchbarheader {
+      // height: 3.9375rem;
+      -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 5%,
+        black 90%,
+        transparent
+      );
+    }
+}

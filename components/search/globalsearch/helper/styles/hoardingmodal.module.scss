@@ -1,0 +1,28 @@
+.container {
+  margin-top: -4.75rem;
+  overflow-y: scroll;
+  @apply h-screen w-screen z-50 bg-white;
+}
+.closecontainer {
+  @apply flex mr-5 px-4 items-end justify-end h-14;
+}
+.body {
+  ::-webkit-scrollbar {
+    width: 0.313rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: whitesmoke;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 1.563rem;
+  }
+  font-size: 1.125rem;
+  line-height: 2.5rem;
+  @apply flex items-center flex-col font-inter font-medium  text-text;
+}
+.item {
+  width: 100%;
+  height: auto;
+  @apply flex hover:bg-pink-50 justify-center;
+}

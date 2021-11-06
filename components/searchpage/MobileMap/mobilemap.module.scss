@@ -1,0 +1,40 @@
+.mobileMapSize {
+    height: 100%;
+    width: 100%;
+    @apply absolute bg-white z-40 bottom-0 right-0;
+  }
+
+  .mobileMapContainer{
+    @apply mt-2.5 text-center;
+  }
+
+  .googlemaps {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .googlemaps iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+@media only screen and (min-width: 1360px){
+
+    .googlemaps {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .googlemaps iframe {
+        height: 100%;
+        width: 100%;
+      }
+
+    .mobileMapSize {
+        height: 100%;
+        width: 100%;
+        @apply absolute bg-white z-40 bottom-0 right-0;
+      }
+}

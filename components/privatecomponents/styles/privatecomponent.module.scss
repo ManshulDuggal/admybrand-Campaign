@@ -1,0 +1,310 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .privatecomponentwrapper {
+    margin-top: 7.5rem;
+    height: 20rem;
+    @apply flex w-full;
+    .privateinternalcomponentwrapper {
+      @apply flex w-full h-full flex-col  relative;
+      .leftcontainer {
+        width: 100%;
+        @apply flex h-full bg-primary-lightpink px-4  flex-col space-y-1 pt-2;
+        .topcontainer {
+          .topcontainertext {
+            @apply font-pops font-semibold text-lg  text-secondary;
+          }
+        }
+        .midcontainer {
+          .midcontainertext {
+            @apply  font-inter font-normal text-base text-text leading-tight;
+          }
+        }
+        .bottomcontainer {
+          @apply flex h-6 w-full mt-6;
+          .arrowbtns {
+            padding-left: 0.375rem;
+            padding-right: 0.375rem;
+            @apply hidden h-6 w-6 rounded justify-center items-center bg-primary-privatebtn;
+          }
+          .arrowbtns:nth-child(2) {
+            @apply ml-6;
+          }
+        }
+      }
+      .rightcontainer {
+        width: calc(#{100%});
+        height: calc(#{33.4375rem});
+        z-index: 3;
+        top: 1rem;
+
+        @apply flex absolute  right-0  bg-transparent;
+        .rightinnercontainer {
+          margin-top: 6.25rem;
+          height: calc(#{33.4375rem} - #{7.0625rem});
+          @apply flex w-full h-full bg-transparent flex-col;
+          .righttopcontainer {
+            padding-right: 10.4375rem;
+            @apply flex justify-end h-7 mb-2;
+            .link {
+              @apply hidden hover:underline text-primary font-pops font-medium text-xl;
+            }
+          }
+          .rightbottomcontainer {
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .privatecomponentwrapper {
+    margin-top: 7.5rem;
+    height: 20rem;
+    @apply flex w-full;
+    .privateinternalcomponentwrapper {
+      @apply flex w-full h-full flex-col  relative;
+      .leftcontainer {
+        width: 100%;
+        @apply flex h-full bg-primary-lightpink px-4  flex-col space-y-4 ;
+        .topcontainer {
+          .topcontainertext {
+            @apply font-pops font-semibold text-base text-secondary;
+          }
+        }
+        .midcontainer {
+          @apply mt-6;
+          .midcontainertext {
+            @apply  font-inter font-normal text-base text-text;
+          }
+        }
+        .bottomcontainer {
+          @apply flex h-6 w-full mt-6;
+          .arrowbtns {
+            padding-left: 0.375rem;
+            padding-right: 0.375rem;
+            @apply hidden h-6 w-6 rounded justify-center items-center bg-primary-privatebtn hover:opacity-75;
+          }
+          .arrowbtns:nth-child(2) {
+            @apply ml-6;
+          }
+        }
+      }
+      .rightcontainer {
+        width: calc(#{100%});
+        height: calc(#{33.4375rem});
+        z-index: 3;
+        top: 1rem;
+
+        @apply flex absolute  right-0  bg-transparent;
+        .rightinnercontainer {
+          margin-top: 6.25rem;
+          height: calc(#{33.4375rem} - #{7.0625rem});
+          @apply flex w-full h-full bg-transparent flex-col;
+          .righttopcontainer {
+            padding-right: 10.4375rem;
+            @apply flex justify-end h-7 mb-2;
+            .link {
+              @apply hidden hover:underline text-primary font-pops font-medium text-xl;
+            }
+          }
+          .rightbottomcontainer {
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .privatecomponentwrapper {
+    margin-top: 7.5rem;
+    height: 33.4375rem;
+    @apply flex w-full;
+    .privateinternalcomponentwrapper {
+      padding-left: 2.4375rem;
+      @apply flex w-full h-full;
+      .leftcontainer {
+        width: 23.25rem;
+        border-radius: 2rem 1rem 1rem 1rem;
+        padding-top: 1.5rem;
+        padding-right: 4.5rem;
+        @apply flex h-full bg-primary-lightpink pl-12  flex-col;
+        .topcontainer {
+          .topcontainertext {
+            font-size: 2.125rem;
+            @apply font-pops font-semibold text-secondary;
+          }
+        }
+        .midcontainer {
+          @apply mt-6;
+          .midcontainertext {
+            @apply  font-inter font-normal text-sm text-text;
+          }
+        }
+        .bottomcontainer {
+          @apply flex h-6 w-full mt-6;
+          .arrowbtns {
+            padding-left: 0.375rem;
+            padding-right: 0.375rem;
+            @apply flex h-6 w-6 rounded justify-center items-center bg-primary-privatebtn;
+          }
+          .arrowbtns:nth-child(2) {
+            @apply ml-6;
+          }
+        }
+      }
+      .rightcontainer {
+        width: calc(#{100%} - #{20.25rem + 2.4375rem});
+        height: calc(#{33.4375rem});
+        z-index: 3;
+        @apply flex absolute  right-0  bg-transparent;
+        .rightinnercontainer {
+          margin-top: 1rem;
+          height: calc(#{33.4375rem} - #{7.0625rem});
+          @apply flex w-full h-full bg-transparent flex-col;
+          .righttopcontainer {
+            padding-right: 10.4375rem;
+            margin-bottom: 5.25rem;
+            @apply flex justify-end h-7;
+            .link {
+              @apply flex hover:underline text-primary font-pops font-medium text-xl;
+            }
+          }
+          .rightbottomcontainer {
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .privatecomponentwrapper {
+    margin-top: 7.5rem;
+    height: 33.4375rem;
+    @apply flex w-full;
+    .privateinternalcomponentwrapper {
+      padding-left: 6.4375rem;
+      @apply flex w-full h-full;
+      .leftcontainer {
+        width: 23.25rem;
+        border-radius: 2rem 1rem 1rem 1rem;
+        padding-top: 1.5rem;
+        padding-right: 4.5rem;
+        @apply flex h-full bg-primary-lightpink pl-12  flex-col;
+        .topcontainer {
+          .topcontainertext {
+            font-size: 2.125rem;
+            @apply font-pops font-semibold text-secondary;
+          }
+        }
+        .midcontainer {
+          @apply mt-6;
+          .midcontainertext {
+            @apply  font-inter font-normal text-base text-text;
+          }
+        }
+        .bottomcontainer {
+          @apply flex h-6 w-full mt-6;
+          .arrowbtns {
+            padding-left: 0.375rem;
+            padding-right: 0.375rem;
+            @apply flex h-6 w-6 rounded justify-center items-center bg-primary-privatebtn;
+          }
+          .arrowbtns:nth-child(2) {
+            @apply ml-6;
+          }
+        }
+      }
+      .rightcontainer {
+        width: calc(#{100%} - #{20.25rem + 8.4375rem});
+        height: calc(#{33.4375rem});
+        z-index: 3;
+        @apply flex absolute  right-0  bg-transparent;
+        // .rightinnercontainer{
+        //   margin-top: 6.25rem;
+        //   height: calc(#{33.4375rem} - #{7.0625rem});
+        //   @apply flex w-full h-full bg-transparent flex-col ;
+        //   .righttopcontainer{
+        //     padding-right: 10.4375rem;
+        //     @apply flex justify-end h-7 mb-2;
+        //     .link{
+        //       @apply flex hover:underline text-primary font-pops font-medium text-xl;
+        //     }
+        //   }
+        //   .rightbottomcontainer{
+
+        //   }
+        // }
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .privatecomponentwrapper {
+    margin-top: 7.5rem;
+    height: 33.4375rem;
+    @apply flex w-full;
+    .privateinternalcomponentwrapper {
+      padding-left: 6.4375rem;
+      @apply flex w-full h-full;
+      .leftcontainer {
+        width: 23.25rem;
+        border-radius: 2rem 1rem 1rem 1rem;
+        padding-top: 2.5rem;
+        padding-right: 4.5rem;
+        @apply flex h-full bg-primary-lightpink pl-12  flex-col;
+        .topcontainer {
+          .topcontainertext {
+            font-size: 2.125rem;
+            @apply font-pops font-semibold text-secondary;
+          }
+        }
+        .midcontainer {
+          @apply mt-6;
+          .midcontainertext {
+            @apply  font-inter font-normal text-base text-text;
+          }
+        }
+        .bottomcontainer {
+          @apply flex h-6 w-full mt-6;
+          .arrowbtns {
+            padding-left: 0.375rem;
+            padding-right: 0.375rem;
+            @apply flex h-6 w-6 rounded cursor-pointer justify-center items-center bg-primary-privatebtn;
+          }
+          .arrowbtns:nth-child(2) {
+            @apply ml-6;
+          }
+        }
+      }
+      .rightcontainer {
+        width: calc(#{100%} - #{20.25rem + 8.4375rem});
+        height: calc(#{33.4375rem});
+        z-index: 3;
+        @apply flex absolute  right-0  bg-transparent;
+        // .rightinnercontainer{
+        //   margin-top: 6.25rem;
+        //   height: calc(#{33.4375rem} - #{7.0625rem});
+        //   @apply flex w-full h-full bg-transparent flex-col ;
+        //   .righttopcontainer{
+        //     padding-right: 10.4375rem;
+        //     @apply flex justify-end h-7;
+        //     .link{
+        //       @apply flex hover:underline text-primary font-pops font-medium text-xl;
+        //     }
+        //   }
+        //   .rightbottomcontainer{
+
+        //   }
+        // }
+      }
+    }
+  }
+}

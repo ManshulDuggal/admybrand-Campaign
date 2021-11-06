@@ -1,0 +1,163 @@
+.mapSizeSmall {
+    @apply xl:block lg:hidden md:hidden sm:hidden;
+  }
+  .mapSizeBig {
+    @apply xl:block lg:hidden md:hidden sm:hidden;
+  }
+  .mapSizeFull {
+    @apply xl:block lg:hidden md:hidden sm:hidden;
+  }
+  .googlemaps {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .googlemaps iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  .mapsContainer{
+    @apply mt-2.5 text-center;
+  }
+  .mapsIconStyle{
+    @apply mr-2;
+  }
+
+  .mapExpand {
+    @apply flex z-30 bg-white shadow-xl cursor-pointer h-10 w-10 border border-bar text-secondary absolute rounded-xl justify-start left-5 top-5 p-2;
+  }
+  
+  .notMapExpand {
+    @apply hidden;
+  }
+  
+  .mapShrink {
+    @apply flex z-30 bg-white shadow-xl cursor-pointer h-10 w-10 border border-bar text-secondary absolute rounded-xl justify-start left-16 top-5 p-2;
+  }
+  
+  .notMapShrink {
+    @apply hidden;
+  }
+  
+  .mapArrow {
+    @apply flex z-30 bg-white shadow-xl cursor-pointer h-10 w-10 border border-bar text-secondary absolute rounded-xl justify-start left-5 top-5 p-2;
+  }
+  
+  .mapArrowClose {
+    @apply flex z-30 bg-white cursor-pointer shadow-xl text-sm font-inter h-10 w-32 text-secondary border border-bar absolute rounded-2xl justify-center items-center left-5 top-5 pt-2 pb-2 pr-3 pl-3;
+  }
+  
+  .mapPointer {
+    @apply flex z-30 bg-white text-gray-900 cursor-pointer text-base font-inter h-10 w-24 shadow rounded-full justify-center items-center pt-2 pb-2 pr-3 pl-3  transform transition duration-200 hover:scale-105 hover:shadow-2xl;
+  }
+  .notMapArrow {
+    @apply hidden;
+  }
+
+@media only screen and (max-width: 767px){
+    .mapSizeSmall {
+        @apply hidden;
+      }
+    .mapSizeBig {
+        @apply hidden;
+      }
+    .mapSizeFull {
+        @apply hidden;
+      }
+}
+
+@media only screen and (min-width: 1030px) {
+    .mapSizeSmall {
+        height: 86vh;
+        width: 28rem;
+        top: 110px;
+        @apply sticky right-0 mr-16;
+      }
+    
+      .mapSizeBig {
+        height: 86vh;
+        width: 36rem;
+        @apply sticky right-0;
+      }
+    
+      .mapSizeFull {
+        height: 86%;
+        @apply fixed bottom-0 right-0 m-0 w-screen left-0;
+      }
+}
+
+@media only screen and (min-width: 1360px){
+    .mapSizeSmall {
+        height: 86vh;
+        width: 32rem;
+        top: 110px;
+        @apply sticky right-0 mr-16;
+      }
+    
+      .mapSizeBig {
+        height: 86vh;
+        width: 40rem;
+        top: 110px;
+        @apply sticky right-0;
+      }
+    
+      .mapSizeFull {
+        height: 86%;
+        @apply fixed bottom-0 right-0 m-0 w-screen left-0;
+      }
+    
+      .googlemaps {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+    
+      .googlemaps iframe {
+        height: 100%;
+        width: 100%;
+      }
+}
+
+@media only screen and (min-width: 1500px) {
+    .mapSizeSmall {
+        height: 86vh;
+        width: 32rem;
+        top: 110px;
+        @apply sticky right-0 mr-40;
+      }
+    
+      .mapSizeBig {
+        height: 86vh;
+        width: 50rem;
+        top: 110px;
+        @apply sticky right-0;
+      }
+    
+      .mapSizeFull {
+        height: 86%;
+        @apply fixed bottom-0 right-0 m-0 w-screen left-0;
+      }
+}
+
+@media only screen and (min-width: 1900px){
+    .mapSizeSmall {
+        height: 90vh;
+        width: 50rem;
+        top: 110px;
+        @apply sticky right-0 mr-40;
+      }
+    
+      .mapSizeBig {
+        height: 90vh;
+        width: 71rem;
+        top: 110px;
+        @apply sticky right-0;
+      }
+    
+      .mapSizeFull {
+        height: 90%;
+        @apply fixed bottom-0 right-0 m-0 w-screen left-0;
+      }
+}

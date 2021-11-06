@@ -1,0 +1,25 @@
+.mediumbtn {
+  @apply flex border-2 border-primary bg-transparent hover:bg-primary-lightpink cursor-pointer rounded-full px-4 py-2 w-auto h-10;
+  .mediumbtntext {
+    @apply flex text-primary cursor-pointer font-pops font-medium text-base;
+  }
+}
+
+.iconbtn {
+  @apply flex w-10 h-10 rounded-full hover:bg-primary-lightpink;
+}
+
+// Ripple effect.
+
+// .iconbtn {
+//   background-position: center;
+//   transition: background 0.8s;
+// }
+// .iconbtn:hover {
+//   background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+// }
+// .iconbtn:active {
+//   background-color: #6eb9f7;
+//   background-size: 100%;
+//   transition: background 0s;
+// }

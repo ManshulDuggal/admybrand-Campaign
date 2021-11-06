@@ -1,0 +1,392 @@
+@media only screen and (max-width: 750px) {
+  .container {
+    ::-webkit-scrollbar {
+      width: 0.313rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: whitesmoke;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: gray;
+      border-radius: 1.563rem;
+    }
+    z-index: 10;
+    @apply flex place-content-center items-center flex-col mx-2 my-2;
+  }
+  .wrapper {
+    @apply flex flex-row h-16 w-full text-sm items-center justify-evenly text-grey font-inter font-medium rounded-full bg-white shadow-md border border-lightblue;
+  }
+  .hoardingContainer {
+    @apply border-r-2 h-6 text-base border-gray-200 p-1.5 flex place-content-center items-center font-inter font-normal;
+  }
+  .locationContainer {
+    @apply border-r-2 h-6 text-base border-gray-200 p-1.5 flex place-content-center items-center;
+  }
+  .dateContainer {
+    @apply p-1.5 text-base flex place-content-center items-center;
+  }
+  .globalsearchArrow {
+    @apply flex items-center h-8 w-8 p-1 ml-1 font-light text-text;
+  }
+  .closeContainer {
+    @apply hidden;
+  }
+  .micContainer {
+    @apply hidden;
+  }
+  .searchContainer {
+    @apply hidden;
+  }
+  .modalContainer {
+    @apply hidden;
+  }
+  .hoardingContent {
+    @apply hidden;
+  }
+  .editSearch {
+    margin-top: -4.238rem;
+    background-color: #ffffff;
+    @apply flex flex-col w-screen h-auto shadow-md justify-center;
+  }
+  .modalHeader {
+    @apply flex flex-row w-screen h-16 place-content-center items-center justify-between p-4;
+  }
+  .modalHeaderTitle {
+    @apply font-inter text-sm font-medium relative flex justify-self-center text-secondary;
+  }
+  .modalBody {
+    @apply shadow-md border rounded-xl mx-3 mb-3 border-lightblue flex flex-col place-content-center;
+  }
+  .modalBodyHoardingTitle {
+    @apply flex text-base self-center ml-4;
+  }
+  .modalBodyHoarding {
+    line-height: 1.125rem;
+    @apply flex flex-row border-b-2 border-bar h-16 p-4 font-inter font-medium text-text;
+  }
+  .modalBodyLocationTitle {
+    @apply font-inter  text-base font-medium text-text;
+  }
+  .modalBodyLocDate {
+    @apply flex flex-row;
+  }
+  .modalBodyDateTitle {
+    @apply font-inter text-base font-medium text-text;
+  }
+  .modalBodyLocation {
+    width: 50%;
+    @apply flex  flex-row  border-r-2 border-bar items-center p-4;
+  }
+  .modalBodyLocationTitle {
+    @apply ml-4;
+  }
+  .modalBodyDate {
+    width: 50%;
+    @apply flex  flex-row items-center h-16 p-4;
+  }
+  .modalBodyDateTitle {
+    @apply ml-4;
+  }
+  .settingsContainer {
+    @apply flex p-1 mr-2 h-10 w-10 items-center;
+  }
+  .settingsModal {
+    @apply fixed;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .container {
+    @apply flex place-content-center mt-3 items-center flex-col;
+  }
+  .wrapper {
+    width: 43.75rem;
+    font-size: 0.938rem;
+    @apply flex flex-row h-14 place-content-center items-center justify-around rounded-full shadow-md border border-lightblue text-secondary font-inter font-normal;
+  }
+  .hoardingContainer {
+    :focus {
+      height: 3.125rem;
+      background-color: hsl(0, 0%, 100%);
+      justify-content: center;
+      width: 100%;
+      @apply shadow-lg rounded-full;
+    }
+    @apply w-1/4 text-text;
+  }
+  .locationContainer {
+    :focus {
+      height: 3.125rem;
+      background-color: #ffffff;
+      justify-content: center;
+      width: 100%;
+      border-radius: 6.125rem;
+      @apply shadow-lg;
+    }
+    @apply w-2/5 text-text;
+  }
+  .dateContainer {
+    :focus {
+      height: 3.125rem;
+      background-color: #ffffff;
+      justify-content: center;
+      width: 100%;
+      border-radius: 6.125rem;
+      @apply shadow-lg;
+    }
+    @apply w-1/4 text-text;
+  }
+  .hoardingContainer,
+  .locationContainer {
+    @apply h-6 border-r-2 border-bar hover:border-transparent focus:border-transparent;
+  }
+  .locationContainer,
+  .hoardingContainer,
+  .dateContainer {
+    :hover {
+      height: 3.125rem;
+      background-color: #ebebeb;
+      justify-content: center;
+      width: 100%;
+      border-radius: 6.125rem;
+    }
+    @apply flex h-12 items-center place-content-center;
+  }
+  .settingsContainer {
+    @apply hidden;
+  }
+  .globalsearchArrow {
+    @apply hidden;
+  }
+  .closeContainer {
+    @apply flex justify-center items-center cursor-pointer w-7 h-7 p-1 text-text transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+  .micContainer {
+    @apply flex justify-center items-center cursor-pointer w-7 h-7 p-1 text-text transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+  .searchContainer {
+    @apply bg-primary-pink text-white font-semibold rounded-full flex w-9 h-9 p-2.5 mx-1.5 cursor-pointer transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+  .modalContainer {
+    ::-webkit-scrollbar {
+      width: 0.313rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: whitesmoke;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: gray;
+      border-radius: 1.563rem;
+    }
+
+    margin-right: 32.85rem;
+    background-color: #fdfdfd;
+    @apply w-40 z-50 absolute mt-60 shadow-lg rounded-2xl;
+  }
+  .hoardingContent {
+    overflow-y: scroll;
+    z-index: 10;
+    @apply flex flex-col items-start mb-4 h-44 px-2 py-4;
+  }
+  .hoardingContentItem {
+    width: 100%;
+    height: 100%;
+    @apply px-3 py-1.5 mb-1 rounded-full font-inter text-sm text-text hover:bg-primary-lightpink;
+  }
+  .alternativeDiv {
+    @apply invisible bg-white;
+  }
+  .editSearch {
+    @apply hidden;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    @apply flex flex-col place-content-center mt-0 items-center;
+  }
+  .wrapper {
+    width: 36.37rem;
+    @apply flex-row h-12 place-content-center items-center justify-around relative;
+  }
+  .hoardingContainer,
+  .locationContainer,
+  .dateContainer {
+    :hover {
+      @apply flex justify-center items-center h-11 rounded-full bg-gray-100;
+    }
+    :focus {
+      @apply flex shadow-lg bg-white h-11 justify-center items-center;
+    }
+    @apply font-inter text-xs font-normal text-secondary;
+  }
+  .globalsearchArrow {
+    @apply hidden;
+  }
+  .hoardingContainer {
+    @apply w-1/4 h-6 border-r-2 border-bar rounded-l-full focus:border-transparent px-1;
+  }
+  .locationContainer {
+    @apply w-2/5 h-6 border-r-2 border-bar focus:border-transparent;
+  }
+  .dateContainer {
+    @apply w-1/4;
+  }
+
+  .hoardingButton,
+  .location,
+  .date {
+    @apply text-sm text-text;
+  }
+
+    .hoardingButton, .location, .date{
+        @apply text-sm text-secondary;
+    }
+  .closeContainer {
+    @apply flex justify-center items-center cursor-pointer w-7 h-7 p-1 text-text transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+  .micContainer {
+    @apply flex justify-center items-center cursor-pointer w-7 h-7 p-1 text-text transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+
+  .searchContainer {
+    @apply bg-primary-pink text-white font-semibold flex w-9 h-9 p-2.5 mx-1.5 cursor-pointer transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+  .modalContainer {
+    ::-webkit-scrollbar {
+      width: 0.313rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: whitesmoke;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: gray;
+      border-radius: 1.563rem;
+    }
+
+    margin-right: 26.75rem;
+    background-color: #fdfdfd;
+    @apply w-auto absolute z-50 mt-60 shadow-lg rounded-2xl;
+  }
+  .hoardingContent {
+    overflow-y: scroll;
+    z-index: 10;
+    @apply flex flex-col items-start h-44 py-4;
+  }
+  .hoardingContentItem {
+    width: 100%;
+    height: 100%;
+    @apply px-3 py-1.5 mb-1 rounded-full font-inter text-sm text-text hover:bg-primary-lightpink;
+  }
+  .editSearch {
+    @apply hidden;
+  }
+  .modalContainerFilters {
+    @apply hidden;
+  }
+  .alternativeDiv {
+    @apply invisible bg-white;
+  }
+}
+//high resolution screens
+@media only screen and (min-width:1500px){
+    .container{
+        @apply flex flex-col place-content-center mt-0 items-center;
+    }
+    .wrapper{
+        width: 36.37rem;
+        @apply flex-row h-12 place-content-center items-center justify-around relative; 
+    }
+    .hoardingContainer, .locationContainer, .dateContainer{
+        :hover{
+            @apply flex justify-center items-center h-11 rounded-full bg-gray-100;
+        }
+        :focus{
+            @apply flex shadow-lg bg-white h-11 justify-center items-center;
+        }
+        @apply font-inter text-xs font-normal text-secondary;
+    }
+    .globalsearchArrow{
+        @apply hidden;
+    }
+    .hoardingContainer{
+        @apply w-1/4 h-6 border-r-2 border-bar rounded-l-full focus:border-transparent px-1;
+    }
+    .locationContainer{
+        @apply w-2/5 h-6 border-r-2 border-bar focus:border-transparent;
+    }
+    .dateContainer{
+        @apply w-1/4;
+    }
+
+    .hoardingButton, .location, .date{
+        @apply text-sm text-secondary;
+    }
+
+  .hoardingButton,
+  .location,
+  .date {
+    @apply text-sm text-text;
+  }
+
+  .closeContainer {
+    @apply flex justify-center items-center cursor-pointer w-7 h-7 p-1 text-text transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+  .micContainer {
+    @apply flex justify-center items-center cursor-pointer w-7 h-7 p-1 text-text transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+
+  .searchContainer {
+    @apply bg-primary-pink text-white font-semibold flex w-9 h-9 p-2.5 mx-1.5 cursor-pointer transform transition duration-100 hover:scale-110 hover:shadow-2xl;
+  }
+  .modalContainer {
+    ::-webkit-scrollbar {
+      width: 0.313rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: whitesmoke;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: gray;
+      border-radius: 1.563rem;
+    }
+
+    margin-right: 26.75rem;
+    background-color: #fdfdfd;
+    @apply w-auto absolute mt-60 shadow-lg rounded-2xl;
+  }
+  .locationmodalContainer {
+    ::-webkit-scrollbar {
+      width: 0.313rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: whitesmoke;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: gray;
+      border-radius: 1.563rem;
+    }
+
+    margin-right: 6.75rem;
+    background-color: #fdfdfd;
+    @apply w-auto absolute mt-60 shadow-lg rounded-2xl;
+  }
+  .hoardingContent {
+    overflow-y: scroll;
+    z-index: 10;
+    @apply flex flex-col items-start h-44 py-4 w-auto;
+  }
+  .hoardingContentItem {
+    width: 100%;
+    height: 100%;
+    @apply px-3 py-1 mb-1 rounded-full flex justify-between font-inter text-sm text-text hover:bg-primary-lightpink;
+  }
+  .editSearch {
+    @apply hidden;
+  }
+  .modalContainerFilters {
+    @apply hidden;
+  }
+  .alternativeDiv {
+    @apply invisible bg-white;
+  }
+}

@@ -1,0 +1,29 @@
+.bodyContainer {
+  @apply flex place-content-center flex-col items-center m-12;
+}
+
+.loginHeading {
+  @apply font-pops font-medium text-secondary;
+}
+
+.subHeading {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  @apply font-inter text-grey font-normal my-2;
+}
+
+.imageContainer {
+  @apply my-2;
+}
+
+.loginButton {
+  background-color: #e40678;
+  width: 5.3rem;
+  height: 2.5rem;
+  @apply flex font-inter items-center place-content-center rounded-full my-4;
+}
+
+.loginText {
+  font-size: 1rem;
+  @apply text-white font-medium font-pops;
+}

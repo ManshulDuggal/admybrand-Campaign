@@ -1,0 +1,25 @@
+.absoluteContainer{
+    @apply absolute inset-0 origin-top;
+}
+.dropdown{
+    @apply space-y-2 flex flex-col;
+    
+}
+.dropdownList{
+    @apply  absolute;
+    display: none ;
+    animation:transitionAnimate 500ms ease-in-out;
+}
+.dropdown:focus-within .dropdownList{
+    display: block ;
+}
+.dropdownList:active{
+    display: block ;
+}
+@keyframes transitionAnimate{
+    0%{
+        transform:scale(0);
+    }100%{
+        transform:scale(1);
+    }
+}

@@ -1,0 +1,10 @@
+.hoverContent {
+  @apply flex items-center justify-center;
+  div {
+    @apply h-4 w-4 rounded-md;
+  }
+  > span {
+    @apply flex-1 text-left font-inter ml-4;
+    color: #153059;
+  }
+}
