@@ -22,7 +22,7 @@ const CampaignHeader = () => {
           <h1>Create. Plan. Book. Execute. Manage. Analyze</h1>
         </div>
         {/* Button */}
-        <GetStarted />
+        <GetStarted text={'get started'} />
         <DownloadApp />
         <div className='items-center text-center text-grey mt-20'>
           <h1 className=''>Scroll down</h1>

@@ -31,7 +31,7 @@ const MarketingSuit = () => {
                 </li>
               ))}
             </ul>
-            <GetStarted />
+            <GetStarted text={'get started'} />
           </div>
 
           <div className=''>
